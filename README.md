@@ -16,7 +16,7 @@ This repo documents my understanding of GIS. The structure of my notes are as fo
 <a name="1"></a>
 ## 1. Fundamentals of GIS
 
-<a name="1"></b>
+<a name="2"></b>
 ### What is GIS?
 
 A GIS provides framework for gathering and organizing spatial data and related information so that it can be displayed and analyzed.
@@ -25,7 +25,8 @@ GIS Desktops:
 
 Popular desktop GIS software options include ArcGIS Desktop, QGIS, and GRASS GIS, among others. Desktop GIS software typically comes with a user-friendly graphical interface that allows users to perform geospatial data analysis and visualization without needing to write any code. However, some desktop GIS software also offer scripting or programming capabilities that allow more advanced users to automate certain tasks, perform custom analyses, or build custom applications using scripting languages such as Python or R. But for most basic GIS tasks, coding is not required, and users can simply use the software's graphical user interface to perform their analyses and create their maps.
 
-Glossary of Terms
+<a name="3"></b>
+### GIS Glossary of Terms
 This document is a glossary of GIS terms you can reference. We'll define most of these in lectures and readings, but we might use some of them before defining them thoroughly. In the meantime, you can reference them here.
 
 A downloadable PDF version is available for download at the bottom as well.
