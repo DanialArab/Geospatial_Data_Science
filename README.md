@@ -26,6 +26,15 @@ GIS Desktops:
 Popular desktop GIS software options include ArcGIS Desktop, QGIS, and GRASS GIS, among others. Desktop GIS software typically comes with a user-friendly graphical interface that allows users to perform geospatial data analysis and visualization without needing to write any code. However, some desktop GIS software also offer scripting or programming capabilities that allow more advanced users to automate certain tasks, perform custom analyses, or build custom applications using scripting languages such as Python or R. But for most basic GIS tasks, coding is not required, and users can simply use the software's graphical user interface to perform their analyses and create their maps.
 
 <a name="3"></b>
+### Vector and Raster Concepts
+
+
+
+
+
+
+
+<a name="3"></a>
 ### GIS Glossary of Terms
 
 The following is a glossary of GIS terms. 
@@ -141,3 +150,4 @@ a.	Flowlines – the streamlines contained within NHD
 
 Other
 1.	Color Ramp – the scale of colors used to symbolize a range of values in a map
+
