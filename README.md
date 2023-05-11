@@ -29,6 +29,7 @@ Popular desktop GIS software options include ArcGIS Desktop, QGIS, and GRASS GIS
 here
 
 
+FOSS4G: Free and Open Source Software for Geospatial
 
 
 
