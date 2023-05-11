@@ -7,6 +7,8 @@ This repo documents my understanding of GIS. The structure of my notes are as fo
     1. [What is GIS](#2)
     2. [Vector and Raster Concept](#3)
     3. [GIS Glossary of Terms](#4)
+2. [Open Source GIS Stack: Python for Geospatial[(#5)
+
 
 <a name="1"></a>
 ## 1. Fundamentals of GIS
@@ -145,7 +147,7 @@ Other
 1.	Color Ramp – the scale of colors used to symbolize a range of values in a map
 
 <a name="5"></a>
-## 5. Open Source GIS Stack: Python for Geospatial
+## 2. Open Source GIS Stack: Python for Geospatial
 
 Source: **Learning the Open Source GIS Stack: Python for Geospatial** course by Arthur Lembo - udemy cource
 
