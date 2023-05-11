@@ -151,4 +151,31 @@ Other
 
 Source: **Learning the Open Source GIS Stack: Python for Geospatial** course by Arthur Lembo - udemy cource
 
-FOSS4G: Free and Open Source Software for Geospatial
+We learn about the **FOSS4G** (Free and Open Source Software for Geospatial) stack. The course has 4 parts:
++ Loading software and data
++ Python packages
++  Geospatial additions to Python
+
+Software installation:
+
++ **QGIS (Quantum GIS)** is a free and open-source geographic information system (GIS) software that allows users to view, edit, and analyze geospatial data. It is designed to provide a user-friendly interface for creating, visualizing, and publishing geospatial information. QGIS can be used for a variety of tasks, such as creating and editing maps, analyzing and manipulating data, and publishing maps and data on the web. QGIS is compatible with a wide range of data formats, including shapefiles, GeoTIFF, KML, and PostGIS. It also supports a range of geospatial operations, such as geocoding, geoprocessing, and spatial analysis. QGIS is a popular choice among researchers, GIS professionals, and other users who need to work with geospatial data. 
+
+
+
+GeoPandas
+
+GeoJSON:
+
+GeoJSON is a format for encoding geospatial data in JSON (JavaScript Object Notation) format. It is designed to be a lightweight, simple, and easy-to-use format for representing and exchanging geospatial data on the web. GeoJSON can represent a variety of spatial features, including points, lines, polygons, and multi-geometries, as well as properties associated with those features.
+
+PostGIS:
+
+PostGIS is a spatial database extension for PostgreSQL, a popular open-source relational database management system. PostGIS adds support for geospatial data types, functions, and indexing to PostgreSQL, allowing it to store and manipulate spatial data. With PostGIS, users can perform a variety of spatial operations, including spatial queries, spatial joins, and spatial analysis. PostGIS also supports a variety of geospatial data formats, including GeoJSON, shapefiles, and KML.
+
+
+
+
+
+
+
+
