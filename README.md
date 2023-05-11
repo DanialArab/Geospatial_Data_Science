@@ -6,10 +6,7 @@ This repo documents my understanding of GIS. The structure of my notes are as fo
 1. [Fundamentals of GIS](#1)
     1. [What is GIS](#2)
     2. [Vector and Raster Concept](#3)
- 2. [GIS Glossary of Terms](#4)
-
-
-
+    3. [GIS Glossary of Terms](#4)
 
 <a name="1"></a>
 ## 1. Fundamentals of GIS
@@ -27,10 +24,6 @@ Popular desktop GIS software options include ArcGIS Desktop, QGIS, and GRASS GIS
 ### Vector and Raster Concepts
 
 here
-
-
-FOSS4G: Free and Open Source Software for Geospatial
-
 
 
 
@@ -151,3 +144,9 @@ a.	Flowlines – the streamlines contained within NHD
 Other
 1.	Color Ramp – the scale of colors used to symbolize a range of values in a map
 
+<a name="5"></a>
+## 5. Open Source GIS Stack: Python for Geospatial
+
+Source: **Learning the Open Source GIS Stack: Python for Geospatial** course by Arthur Lembo - udemy cource
+
+FOSS4G: Free and Open Source Software for Geospatial
