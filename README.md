@@ -5,12 +5,10 @@ This repo documents my understanding of GIS. The structure of my notes are as fo
 
 1. [Fundamentals of GIS](#1)
     1. [What is GIS](#2)
-    2. [GIS Glossary of Terms](#3)
-    3. [](#4)
-    4. [](#5)
+    2. [Vector and Raster Concept](#3)
+ 2. [GIS Glossary of Terms](#4)
 
 
-2. [](#6)
 
 
 <a name="1"></a>
