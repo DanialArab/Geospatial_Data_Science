@@ -1,6 +1,6 @@
 # ML_in_Geospatial
 
-This repo documents my understanding of GIS. The structure of my notes are as follows, and more details on each topic is presented in the Markdown files, named consistently with the first-level headings below, attached to this repo.
+This repo documents my understanding of GIS and application of ML in it. The structure of my notes are as follows, and more details on each topic is presented in the Markdown files, named consistently with the first-level headings below, attached to this repo.
 
 
 
