@@ -27,11 +27,11 @@ Popular desktop GIS software options include ArcGIS Desktop, QGIS, and GRASS GIS
 
 <a name="3"></b>
 ### GIS Glossary of Terms
-This document is a glossary of GIS terms you can reference. We'll define most of these in lectures and readings, but we might use some of them before defining them thoroughly. In the meantime, you can reference them here.
 
-A downloadable PDF version is available for download at the bottom as well.
+The following is a glossary of GIS terms. 
 
-GIS Generally
+GIS General
+
 1.	Spatial Data – data with a geographic location, representation, or reference point that it describes.
 
 2.	Cartography – the science of map making, including data inclusion, layout, elements, colors, and design. As much as it’s a science, it’s an art form.
