@@ -7,7 +7,7 @@ This repo documents my understanding of GIS. The structure of my notes are as fo
     1. [What is GIS](#2)
     2. [Vector and Raster Concept](#3)
     3. [GIS Glossary of Terms](#4)
-2. [Open Source GIS Stack: Python for Geospatial[(#5)
+2. [Open Source GIS Stack: Python for Geospatial](#5)
 
 
 <a name="1"></a>
