@@ -6,11 +6,11 @@ This repo documents my understanding of GIS and application of ML in it. The str
 
 # Table of content
 
-1. [1. GIS Fundamentals(#1)
-    1. [GIS Basics](#2)
-    2. [Open Source GIS Stack: Python for Geospatial](#3)
+1. GIS Fundamentals
+    1. GIS Basics
+    2. Open Source GIS Stack: Python for Geospatial
     
-2. [My GIS Projects](#4)
+2. My GIS Projects
 
 
 
