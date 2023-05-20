@@ -7,10 +7,10 @@ This repo documents my understanding of GIS and application of ML in it. The str
 # Table of content
 
 1. GIS Fundamentals:
-This directory contains the Markdown files detailing my understanding of GIS theory and programming using Python, PostgreSQL, and PostGIS.
+This directory contains the Markdown files detailing my understanding of GIS theory and programming using Python, PostgreSQL, and PostGIS. 
 
     1. GIS Basics
-    2. Open Source GIS Stack: Python for Geospatial
+    2. Open Source GIS Stack: Python for Geospatial, Udemy course, instructor: Arthur Lembo
     
 2. My GIS Projects
 This directory contains the details of the GIS project I have done so far including the jupyter notebook files containing all the end-to-end pipelines.
