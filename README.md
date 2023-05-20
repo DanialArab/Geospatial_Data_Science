@@ -12,7 +12,7 @@ This directory contains the Markdown files detailing my understanding of GIS the
 ### 2. My GIS Projects
 This directory contains the details of the GIS project I have done so far, whcih include the jupyter notebook files containing all the Python codes and end-to-end pipelines. A brief summary of each project along with some visualizations are presented in the following: 
 
-1. Drinking fountains distribution along greenways and bikeways in Vancouver, BC, Canada. 
+#### 1. Drinking fountains distribution along greenways and bikeways in Vancouver, BC, Canada. 
 
 
 buffer distance = 80 m
