@@ -8,12 +8,9 @@ This repo documents my understanding of GIS and application of ML in it. The str
 
 1. [1. GIS Fundamentals(#1)
     1. [GIS Basics](#2)
-    2. [Vector and Raster Concept](#3)
-    3. [GIS Glossary of Terms](#4)
-2. [Open Source GIS Stack: Python for Geospatial](#5)
-3. [GeoPandas](#6)
-4. [GeoJSON](#5)
-5. [PostGIS](#5)
+    2. [Open Source GIS Stack: Python for Geospatial](#3)
+    
+2. [My GIS Projects](#4)
 
 
 
