@@ -19,3 +19,7 @@ This repo documents my understanding of GIS and application of ML in it. The str
 
 
 ![](https://github.com/DanialArab/images/blob/main/GIS/1.PNG)
+
+![](https://github.com/DanialArab/images/blob/main/GIS/2.PNG)
+
+![](https://github.com/DanialArab/images/blob/main/GIS/3.PNG)
