@@ -18,6 +18,7 @@ This repo documents my understanding of GIS and application of ML in it. The str
 
 
 buffer distance = 80 m
+df = drinking fountain
 ![](https://github.com/DanialArab/images/blob/main/GIS/1.PNG)
 
 ![](https://github.com/DanialArab/images/blob/main/GIS/2.PNG)
