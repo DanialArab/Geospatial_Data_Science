@@ -3,7 +3,7 @@
 This repo documents my understanding of GIS and application of ML in it. The structure of the repo is as follows, and more details on each topic is presented in the Markdown files, named consistently with the first-level headings below, attached to this repo.
 
 
-### 1. GIS Fundamentals:
+### 1. GIS Fundamentals
 This directory contains the Markdown files detailing my understanding of GIS theory and programming using Python, PostgreSQL, and PostGIS. 
 
 1. GIS Basics
