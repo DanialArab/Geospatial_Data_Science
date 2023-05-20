@@ -15,7 +15,7 @@ This directory contains the Markdown files detailing my understanding of GIS the
 2. My GIS Projects
 This directory contains the details of the GIS project I have done so far including the jupyter notebook files containing all the end-to-end pipelines.
 
-    1. Drinking fountain distribution along greenways and bikeways in VAncouver
+    1. Drinking fountain distribution along greenways and bikeways in Vancouver, BC, Canada. 
 
 
 buffer distance = 80 m
