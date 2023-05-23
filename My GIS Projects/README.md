@@ -7,6 +7,7 @@ The jupyter notebook files for each projects containing all the Python scripts a
 
 In this project, I am investigating the drinking fountains accessibility (with 80 m as buffer distance) along the green pathwyas in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities (please see the jupyter notebook file named "Drinking fountains distribution - Vancouver, BC, Canada.ipynb", attached to this repo). 
 
+
 The followings are some notes and explanations:
 
 First, I need to see what the coordinate reference system (CRS) of the data presented in the City of Vancouver public data portal is. I need this when buffering the pathways:
@@ -33,7 +34,8 @@ S**ome notes on CRS:**
 
 A CRS defines how spatial data, such as maps or geographical features, are represented on a two-dimensional surface. The CRS of "WGS 84," typically indicates that the coordinates in the shapefile are based on the World Geodetic System 1984 (WGS 84) reference ellipsoid. In this CRS, the units are indeed **in degrees for both latitude and longitude.**
 
-So in order to be able to generate buffer arounf greenways I need to convert the desired buffer distance in meter to degrees:
+So in order to be able to generate buffer around
+ greenways I need to convert the desired buffer distance in meter to degrees:
 
         buffer_distance_meters = 80
 
