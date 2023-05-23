@@ -46,4 +46,16 @@ which returns
 
         The buffer distance of 80 m is equivalent to 0.00071865 degrees
 
+To generate a buffer of 80 m around greenways:
 
+        greenways_buffer = greenways.buffer(buffer_distance_degrees)
+        fig, ax = plt.subplots(figsize=(12,12))
+        greenways_buffer.plot(ax=ax, color='green')
+        drinking_fountains.plot(ax=ax, color='blue', alpha=0.3)
+        plt.show()
+
+which returns:
+
+![!](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df.png)
+
+now, I'd like to underlay the VAncouver map:
