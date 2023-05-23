@@ -5,7 +5,9 @@ The jupyter notebook files for each projects containing all the Python scripts a
 
 ## 1. Drinking fountains distribution - Vancouver, BC, Canada
 
-In this project, I am investigating the drinking fountains accessibility along the green pathwyas in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality and here I am leveraging GeoPandas spatial functionalities. ALl the Python scripts are atatched as the jupyter notebook file names "Drinking fountains distribution - Vancouver, BC, Canada.ipynb". The followings are some notes and explanations:
+In this project, I am investigating the drinking fountains accessibility along the green pathwyas in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities (please see the jupyter notebook file named "Drinking fountains distribution - Vancouver, BC, Canada.ipynb", attached to this repo). 
+
+The followings are some notes and explanations:
 
 
 
