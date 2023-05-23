@@ -5,11 +5,12 @@ The jupyter notebook files for each projects containing all the Python scripts a
 
 ## 1. Drinking fountains distribution - Vancouver, BC, Canada
 
-In this project, I am investigating the drinking fountains accessibility along the green pathwyas in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities (please see the jupyter notebook file named "Drinking fountains distribution - Vancouver, BC, Canada.ipynb", attached to this repo). 
+In this project, I am investigating the drinking fountains accessibility (with 80 m as buffer distance) along the green pathwyas in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities (please see the jupyter notebook file named "Drinking fountains distribution - Vancouver, BC, Canada.ipynb", attached to this repo). 
 
 The followings are some notes and explanations:
 
-The coordinate reference system (CRS) of the data presented in the City of Vancouver public data portal is 
+First, I need to see what the coordinate reference system (CRS) of the data presented in the City of Vancouver public data portal is. I need this when buffering the pathways:
+
 
     import geopandas as gpd
     import matplotlib.pyplot as plt
@@ -24,14 +25,24 @@ The coordinate reference system (CRS) of the data presented in the City of Vanco
 
     print("The CRS Name for the greenways data is:", crs_name)
 
+which returns:
+
+        The CRS Name for the greenways data is: WGS 84
+
+S**ome notes on CRS:**
+
+A CRS defines how spatial data, such as maps or geographical features, are represented on a two-dimensional surface. The CRS of "WGS 84," typically indicates that the coordinates in the shapefile are based on the World Geodetic System 1984 (WGS 84) reference ellipsoid. In this CRS, the units are indeed **in degrees for both latitude and longitude.**
+
+So in order to be able to generate buffer arounf greenways I need to convert the desired buffer distance in meter to degrees:
+
+        buffer_distance_meters = 80
+
+        buffer_distance_degrees = buffer_distance_meters / (111319.9 * 1)  # Approximate conversion factor for WGS 84
+        print(f"The buffer distance of 80 m is equivalent to {buffer_distance_degrees:.8f} degrees")
+
+which returns
+
+        The buffer distance of 80 m is equivalent to 0.00071865 degrees
 
 
-A CRS defines how spatial data, such as maps or geographical features, are represented on a two-dimensional surface. The crs.name property retrieves the name of the CRS associated with the "greenways" data.
 
-
-ChatGPT
-Yes, when the CRS name is "WGS 84," it typically indicates that the coordinates in the shapefile are based on the World Geodetic System 1984 (WGS 84) reference ellipsoid. In this CRS, the units are indeed in degrees for both latitude and longitude.
-
-WGS 84 is a widely used geographic coordinate system and is often used as the default CRS for global or worldwide datasets. It provides a consistent and standardized way to represent locations on the Earth's surface using latitude and longitude measurements.
-
-Therefore, if your shapefile has a CRS name of "WGS 84," you can assume that the units are in degrees for both the X (longitude) and Y (latitude) coordinates.
