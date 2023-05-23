@@ -47,4 +47,3 @@ which returns
         The buffer distance of 80 m is equivalent to 0.00071865 degrees
 
 
-
