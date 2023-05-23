@@ -16,6 +16,8 @@ This directory contains the details of the GIS project I have done so far, whcih
 
 buffer distance = 80 m
 df = drinking fountain
+
+![!](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df.png)
 ![](https://github.com/DanialArab/images/blob/main/GIS/1.PNG)
 
 ![](https://github.com/DanialArab/images/blob/main/GIS/2.PNG)
