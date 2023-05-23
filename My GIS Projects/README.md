@@ -9,7 +9,24 @@ In this project, I am investigating the drinking fountains accessibility along t
 
 The followings are some notes and explanations:
 
+The coordinate reference system (CRS) of the data presented in the City of Vancouver public data portal is 
 
+    import geopandas as gpd
+    import matplotlib.pyplot as plt
+
+    path_to_df_shape_file = 'data/1.Drinking-fountains/drinking-fountains.shp'
+    path_to_df_greenways_file = 'data/2.greenways/greenways.shp'
+
+    greenways = gpd.read_file(path_to_df_greenways_file)
+    drinking_fountains = gpd.read_file(path_to_df_shape_file)
+
+    crs_name = greenways.crs.name
+
+    print("The CRS Name for the greenways data is:", crs_name)
+
+
+
+A CRS defines how spatial data, such as maps or geographical features, are represented on a two-dimensional surface. The crs.name property retrieves the name of the CRS associated with the "greenways" data.
 
 
 ChatGPT
