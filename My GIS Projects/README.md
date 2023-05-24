@@ -61,6 +61,6 @@ Fig. 1: THe buffered green pathways (with 80 m buffere distance) and the drinkin
 
 now, I'd like to underlay the Vancouver map. For that I use Contextily, which is a Python library that provides a simple way to add web-based map tile layers to the geospatial visualizations and analysis. It allows to easily retrieve map tiles from various tile providers (such as OpenStreetMap, Stamen, and others) and underlay them on the spatial data:
 
-
+[!)(https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df_with_osm.png)
 
 
