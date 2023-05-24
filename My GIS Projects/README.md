@@ -95,4 +95,4 @@ Nw I'd like to use this info to geenarte an interactive map of the highly access
 
 
 
-(https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/interactive_map.html)
+[](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/interactive_map.html)
