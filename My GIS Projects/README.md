@@ -55,8 +55,8 @@ To generate a buffer of 80 m around greenways:
         plt.show()
 
 which returns:
-![!](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df.png)
-
+#![!](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df.png)
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df.png)
 Fig. 1: The buffered green pathways (with 80 m buffere distance) and the drinking fountains in Vancouver, BC
 
 Now, I'd like to underlay the Vancouver map. For that I use **Contextily**, which is a Python library that provides a simple way to add web-based map tile layers to the geospatial visualizations and analysis. It allows to easily retrieve map tiles from various tile providers (such as OpenStreetMap, Stamen, and others) and underlay them on the spatial data:
