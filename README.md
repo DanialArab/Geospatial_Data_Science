@@ -35,8 +35,8 @@ In total there are 111 highly accessible drinking fountains out of the 278 total
 
 The screenshot of the interactive map of the highly accessible drinking fountains in Vancouver is depicted in Fig. 3:
 
-
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/interactive_map_screenshot_2.png)
+Fig. 3: Screenshot of the highly accessible drinking fountains along the green pathways in Vancouver, BC
 
 
 The interactive map provides various features such as panning, zooming, and browsing the map. Click on the link to access and explore the map interactively:
