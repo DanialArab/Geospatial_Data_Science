@@ -80,4 +80,5 @@ Now, I'd like to underlay the Vancouver map. For that I use **Contextily**, whic
 Fig. 2: The OpenStreetMap underlaid the spatial data of the buffered green pathways (with 80 m buffere distance) and the drinking fountains in Vancouver, BC
 
 
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/fountains_within_buffer_dataframe.csv)
 
