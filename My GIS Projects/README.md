@@ -85,6 +85,9 @@ Now, I'd like to know the location and coordinates (longitude and latitude) of t
 
         fountains_within_buffer = drinking_fountains[drinking_fountains.intersects(greenways_buffer.unary_union)]
 
-These info is summarized as a dataframe whose screenshot is depicted in the following:
+These info is summarized as a dataframe whose screenshot of the first 15 records is depicted in the following:
+
+In total there is 111 highly accessible drinking fountains out of the 278 total fountins along the green pathways in Vancouver. 
+
 
 
