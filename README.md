@@ -43,15 +43,4 @@ The interactive map provides various features such as panning, zooming, and brow
 
 [Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/map/)
 
-#### Geopandas:
-
-GeoPandas is a Python library that extends the capabilities of the popular data manipulation library, pandas, by adding **geospatial data processing and analysis functionalities**. It builds upon other powerful geospatial libraries such as Shapely, Fiona, and pyproj to provide a convenient and efficient way to work with geospatial data in Python. Some key benefits: 
-
-Geometric Operations: GeoPandas provides a wide range of spatial operations and transformations. It allows us to perform operations such as overlaying geometries, buffering, simplifying, and finding intersections or unions between geometries. These operations are made possible by the underlying Shapely library.
-
-Integration with Visualization Libraries: GeoPandas seamlessly integrates with popular data visualization libraries like Matplotlib and seaborn. It provides built-in plotting functions to create maps, scatter plots, choropleth maps, and more.
-
-The main purpose of GeoPandas is to handle two-dimensional geospatial data, which consists of geometries (points, lines, polygons) and associated attribute data. It allows us to read, write, manipulate, analyze, and visualize geospatial datasets.
-
-
 
