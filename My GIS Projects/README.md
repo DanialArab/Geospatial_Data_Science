@@ -95,3 +95,6 @@ Nw I'd like to use this info to geenarte an interactive map of the highly access
 
 
 https://<DanialArab>.github.io/<your-repository-name>/maps/<your-html-file-name>.html
+
+[Interactive Map](https://DanialArab.github.io/Geospatial_Data_Science/main/maps/<your-html-file-name>.html)
+[Interactive Map](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/interactive_map.html)
