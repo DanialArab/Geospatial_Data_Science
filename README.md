@@ -14,14 +14,35 @@ This directory contains the details of the GIS project I have done so far, whcih
 
 #### 1. Drinking fountains distribution along greenways and bikeways in Vancouver, BC, Canada. 
 
-buffer distance = 80 m
-df = drinking fountain
 
-![](https://github.com/DanialArab/images/blob/main/GIS/1.PNG)
+# My GIS Projects
 
-![](https://github.com/DanialArab/images/blob/main/GIS/2.PNG)
+The jupyter notebook files for each projects containing all the Python scripts and end-to-end pipelines are attached to this repo and they are named consistently with the names of the projects in the following:
 
-![](https://github.com/DanialArab/images/blob/main/GIS/3.PNG)
+## 1. Drinking fountains distribution - Vancouver, BC, Canada
+
+In this project, I am investigating the drinking fountains accessibility (with 80 m as buffer distance) along the green pathwyas in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities (please see the jupyter notebook file named "Drinking fountains distribution - Vancouver, BC, Canada.ipynb", presented in the directory called "My PGIS Projects"). 
+
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df.png)
+Fig. 1: The buffered green pathways (with 80 m buffere distance) and the drinking fountains in Vancouver, BC
+
+
+![](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df_with_osm.png)
+
+Fig. 2: The OpenStreetMap underlaid the spatial data of the buffered green pathways (with 80 m buffere distance) and the drinking fountains in Vancouver, BC
+
+
+
+![](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/fountains_within_buffer_dataframe.PNG)
+
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/interactive_map_screenshot_2.png)
+
+
+The interactive map provides various features such as panning, zooming, and browsing the map. Click on the link to access and explore the map interactively:
+
+[Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/map/)
 
 
 #### Geopandas:
