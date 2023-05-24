@@ -85,4 +85,6 @@ Now, I'd like to know the location and coordinates (longitude and latitude) of t
 
         fountains_within_buffer = drinking_fountains[drinking_fountains.intersects(greenways_buffer.unary_union)]
 
+These info is summarized as a dataframe whose screenshot is depicted in the following:
+
 
