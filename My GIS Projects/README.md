@@ -87,6 +87,8 @@ Now, I'd like to know the location and coordinates (longitude and latitude) of t
 
 These info is summarized as a dataframe whose screenshot of the first 15 records is depicted in the following:
 
+![](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/fountains_within_buffer_dataframe.PNG)
+
 In total there is 111 highly accessible drinking fountains out of the 278 total fountins along the green pathways in Vancouver. 
 
 
