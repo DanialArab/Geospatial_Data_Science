@@ -41,6 +41,6 @@ Fig. 3: Screenshot of the highly accessible drinking fountains along the green p
 
 The interactive map provides various features such as panning, zooming, and browsing the map. Click on the link below to access and explore the map interactively:
 
-[Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/map/)
+[Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/interactive_map_drinking_fountain_Vancouver/)
 
 
