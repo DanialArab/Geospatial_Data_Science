@@ -59,7 +59,7 @@ which returns:
 
 Fig. 1: The buffered green pathways (with 80 m buffere distance) and the drinking fountains in Vancouver, BC
 
-now, I'd like to underlay the Vancouver map. For that I use Contextily, which is a Python library that provides a simple way to add web-based map tile layers to the geospatial visualizations and analysis. It allows to easily retrieve map tiles from various tile providers (such as OpenStreetMap, Stamen, and others) and underlay them on the spatial data:
+Now, I'd like to underlay the Vancouver map. For that I use Contextily, which is a Python library that provides a simple way to add web-based map tile layers to the geospatial visualizations and analysis. It allows to easily retrieve map tiles from various tile providers (such as OpenStreetMap, Stamen, and others) and underlay them on the spatial data:
 
         plot_extent = greenways_buffer.total_bounds
 
