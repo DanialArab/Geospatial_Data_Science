@@ -126,7 +126,12 @@ Now I'd like to use this info to generate an interactive map of the highly acces
 
         m.save('plots/interactive_map.html')
 
+The screenshot of the interactive map is presented Fig. 3:
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/interactive_map_screenshot_2.png)
+
+Fig. 3: Screenshot of the highly accessible drinking fountains along the green pathways in Vancouver, BC 
+
+Also, the interactive map is presented in the following link, which gives a chance to pn, zoom, and browse the map:
 
 [Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/map/)
