@@ -80,5 +80,9 @@ Now, I'd like to underlay the Vancouver map. For that I use **Contextily**, whic
 Fig. 2: The OpenStreetMap underlaid the spatial data of the buffered green pathways (with 80 m buffere distance) and the drinking fountains in Vancouver, BC
 
 
+Now, I'd like to know the location and coordinates (longitude and latitude) of the highly accessible drinking fountains along the green pathways: these fountains are at most 80 m depart from the green pathways. To do this calculation:
+
+
+        fountains_within_buffer = drinking_fountains[drinking_fountains.intersects(greenways_buffer.unary_union)]
 
 
