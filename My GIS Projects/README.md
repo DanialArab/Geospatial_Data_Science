@@ -54,7 +54,6 @@ To generate a buffer of 80 m around greenways:
         drinking_fountains.plot(ax=ax, color='blue', alpha=0.3)
         plt.show()
 
-which returns:
-![!](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df.png)
+which returns:![!](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df.png)
 
 now, I'd like to underlay the VAncouver map:
