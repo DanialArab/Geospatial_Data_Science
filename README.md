@@ -31,6 +31,7 @@ Table 1: Location and coordinates (longitude and latitude) of the highly accessi
 
 ![](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/fountains_within_buffer_dataframe.PNG)
 
+In total there are 111 highly accessible drinking fountains out of the 278 total fountins along the green pathways in Vancouver. 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/interactive_map_screenshot_2.png)
 
