@@ -12,7 +12,7 @@ This directory contains the following Markdown files detailing my understanding 
 ### 2. My GIS Projects
 This directory contains the details of the GIS project I have done so far, whcih include the jupyter notebook files containing all the Python codes and end-to-end pipelines. For my projects, I work on jupyter notebook and although I installed QGIS in my ubuntu VM to be able to play with qgis package, geopandas works fabulously in a much simpler term. It allows me to access great spatial functions and operations. A brief summary of each project along with some visualizations are presented in the following. 
 
-#### 1. Drinking fountains distribution along greenways and bikeways in Vancouver, BC, Canada. 
+#### 1. Drinking fountains distribution along green pathways in Vancouver, BC, Canada. 
 
 In this project, I am investigating the drinking fountains accessibility (with 80 m as buffer distance) along the green pathwyas in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities (please see the jupyter notebook file named "Drinking fountains distribution - Vancouver, BC, Canada.ipynb", presented in the directory called "My PGIS Projects"). 
 
