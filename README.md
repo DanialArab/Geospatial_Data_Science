@@ -33,13 +33,15 @@ Table 1: Location and coordinates (longitude and latitude) of the highly accessi
 
 In total there are 111 highly accessible drinking fountains out of the 278 total fountins along the green pathways in Vancouver. 
 
+The screenshot of the interactive map of the highly accessible drinking fountains in Vancouver is depicted in Fig. 3:
+
+
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/interactive_map_screenshot_2.png)
 
 
 The interactive map provides various features such as panning, zooming, and browsing the map. Click on the link to access and explore the map interactively:
 
 [Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/map/)
-
 
 #### Geopandas:
 
