@@ -92,6 +92,41 @@ In total there are 111 highly accessible drinking fountains out of the 278 total
 
 Now I'd like to use this info to generate an interactive map of the highly accessible drinking fountains in Vancouver. I use **Folium** library:
 
+        import folium
+        m = folium.Map(location = [df.Latitude.mean(), df.Longitude.mean()], zoom_start = 12)
+
+        for i in range(0, len(df)):
+            folium.Marker([df.iloc[i]['Latitude'], df.iloc[i]['Longitude']], popup = df.iloc[i]['name']).add_to(m)
+
+
+        # Convert the buffered pathways to GeoJSON format
+        buffered_pathways_geojson = greenways_buffer.__geo_interface__
+
+        # Create a GeoJson layer for the buffered pathways
+        buffered_pathways_layer = GeoJson(buffered_pathways_geojson, name='Buffered Pathways')
+
+        # Define the style function to adjust the color
+        def style_function(feature):
+            return {
+                'fillColor': 'green',  # Specify the desired color
+                'color': 'green',      # Specify the border color
+                'weight': 2,           # Specify the border width
+                'fillOpacity': 0.5     # Specify the fill opacity
+            }
+
+        # Create a GeoJson layer for the buffered pathways with the defined style
+        buffered_pathways_layer = GeoJson(
+            buffered_pathways_geojson,
+            name='Buffered Pathways',
+            style_function=style_function
+        )
+
+        # Add the buffered pathways layer to the map
+        buffered_pathways_layer.add_to(m)
+
+        m.save('plots/interactive_map.html')
+
+
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/interactive_map_screenshot_2.png)
 
 [Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/map/)
