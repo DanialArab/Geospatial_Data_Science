@@ -91,5 +91,7 @@ These info is summarized as a dataframe whose screenshot of the first 15 records
 
 In total there are 111 highly accessible drinking fountains out of the 278 total fountins along the green pathways in Vancouver. 
 
+Now I'd like to use this info to geenarte an interactive map of the highly accessible drinking fountains in Vancouver. I use **Leaflet** and **Folium** libraries:
 
 
+[Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/map/)
