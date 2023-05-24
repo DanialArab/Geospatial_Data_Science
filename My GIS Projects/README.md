@@ -95,8 +95,7 @@ Now I'd like to use this info to geenarte an interactive map of the highly acces
 
 
 
-[Interactive Map](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/interactive_map.html)
 
 
 
-[](https://gist.github.com/DanialArab/087cd60170f15a7592f69328c6ef00d3)
+[Link Text](https://gist.github.com/DanialArab/087cd60170f15a7592f69328c6ef00d3)
