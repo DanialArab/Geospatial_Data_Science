@@ -94,8 +94,3 @@ In total there are 111 highly accessible drinking fountains out of the 278 total
 Now I'd like to use this info to geenarte an interactive map of the highly accessible drinking fountains in Vancouver. I use **Leaflet** and **Folium** libraries:
 
 
-
-
-
-
-[Link Text](https://gist.github.com/DanialArab/087cd60170f15a7592f69328c6ef00d3)
