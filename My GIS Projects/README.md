@@ -132,6 +132,6 @@ The screenshot of the interactive map is presented Fig. 3:
 
 Fig. 3: Screenshot of the highly accessible drinking fountains along the green pathways in Vancouver, BC 
 
-Also, the interactive map is presented in the following link, which gives a chance to pn, zoom, and browse the map:
+The interactive map provides various features such as panning, zooming, and browsing the map. Click on the link to access and explore the map interactively:
 
 [Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/map/)
