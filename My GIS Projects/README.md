@@ -134,6 +134,11 @@ The screenshot of the interactive map is presented Fig. 3:
 
 Fig. 3: Screenshot of the highly accessible drinking fountains along the green pathways in Vancouver, BC 
 
+The heatmap is presented in Fig. 4:
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/heatmap_screenshot.png)
+Fig. 4: Heatmap of the highly accessible drinking fountains along the green pathways in Vancouver, BC 
+
 The interactive map provides various features such as panning, zooming, and browsing the map. Click on the link below to access and explore the map interactively:
 
 [Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/interactive_map_drinking_fountain_Vancouver/)
