@@ -134,7 +134,30 @@ The screenshot of the interactive map is presented Fig. 3:
 
 Fig. 3: Screenshot of the highly accessible drinking fountains along the green pathways in Vancouver, BC 
 
-The heatmap is presented in Fig. 4:
+To generate the heatmap:
+
+        import folium
+        from folium import plugins
+
+        locations = df
+        # Calculate the mean latitude and longitude
+        center_lat = locations['Latitude'].mean()
+        center_lon = locations['Longitude'].mean()
+
+        # Create a map object
+        map_heatmap = folium.Map(location=[center_lat, center_lon], zoom_start=12)
+
+        # Create a HeatMap object
+        heat_data = locations[['Latitude', 'Longitude']].values.tolist()
+        heatmap = plugins.HeatMap(heat_data)
+
+        # Add HeatMap layer to the map
+        map_heatmap.add_child(heatmap)
+
+        # Display the map
+        map_heatmap
+
+which returns: 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/heatmap_screenshot.png)
 Fig. 4: Heatmap of the highly accessible drinking fountains along the green pathways in Vancouver, BC 
