@@ -1,10 +1,10 @@
 # Geospatial Data Science
 
-This repo documents my understanding of GIS and application of ML in it. The structure of the repo is as follows, and more details on each topic is presented in the files in each directory, named consistently with the first-level headings below, attached to this repo.
+This repo documents my understanding of GIS and Geospatial Data Science. The structure of the repo is as follows, and more details on each topic is presented in the files in each directory, named consistently with the first-level headings below, attached to this repo.
 
 
 ### 1. GIS Fundamentals
-This directory contains the following Markdown files detailing my understanding of GIS theory and programming using Python, PostgreSQL, and PostGIS. 
+This directory contains the following Markdown files detailing my understanding of GIS theory and programming using Geospatial Python librraies (GeoPandas, Shapely, Rasterio, GDAL, etc.), PostgreSQL, and PostGIS. 
 
 1. GIS Basics
 2. Open Source GIS Stack: Python for Geospatial, Udemy course, instructor: Arthur Lembo
