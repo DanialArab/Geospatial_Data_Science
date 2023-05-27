@@ -16,7 +16,7 @@ This directory contains the details of the GIS project I have done so far, whcih
 
 #### 1. Drinking fountains distribution along green pathways in Vancouver, BC, Canada. 
 
-In this project, I am investigating the drinking fountains accessibility (with 80 m as buffer distance) along the green pathwyas in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities in jupyter notebook (please see [the link to the jupyter notebook](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/Drinking%20fountains%20distribution%20-%20Vancouver%2C%20BC%2C%20Canada.ipynb). 
+In this project, I am investigating the drinking fountains accessibility (with 80 m as buffer distance) along the green pathwyas in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities in jupyter notebook (please see [the link to the jupyter notebook](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/Drinking%20fountains%20distribution%20-%20Vancouver%2C%20BC%2C%20Canada.ipynb)). 
 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df.png)
