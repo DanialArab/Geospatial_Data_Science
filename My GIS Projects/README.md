@@ -172,7 +172,7 @@ In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfir
 
 Some quick notes on the data:
 + Data belong to 1992 to 2015 
-+ The fire sizes are classified as 7 different classes. The fire sizes are also available in 
++ The fire sizes are classified as 7 different classes, as follow:
 
 |**number of acres within the final fire perimeter expenditures**|**Class ID** |
 | -- | --| 
@@ -182,9 +182,7 @@ Some quick notes on the data:
 |100-299|D|
 |300 to 999|E|
 |1000 to 4999|F|
-|5000+|G|
-
-FIRE_SIZE_CLASS = Code for fire size based on the number of acres within the final fire perimeter expenditures (A=greater than 0 but less than or equal to 0.25 acres, B=0.26-9.9 acres, C=10.0-99.9 acres, D=100-299 acres, E=300 to 999 acres, F=1000 to 4999 acres, and G=5000+ acres).
+|5000 +|G|
 
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
