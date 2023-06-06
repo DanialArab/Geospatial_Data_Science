@@ -165,3 +165,15 @@ Fig. 4: Heatmap of the highly accessible drinking fountains along the green path
 The interactive map provides various features such as panning, zooming, and browsing the map. Click on the link below to access and explore the map interactively:
 
 [Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/interactive_map_drinking_fountain_Vancouver/)
+
+## 2. Exploratory Data Analysis on US Wildfires 
+
+In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfires, data obtained from Kaggle (https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires). My primary goal was to explore the data and find out any potential room for application of Machine Learning. So based on this exploratory data analysis I will suggest different ML ideas, which could potentially be worth of more exploration. 
+
+
+
+Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
+
+
+
+
