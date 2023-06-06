@@ -174,7 +174,7 @@ Some quick notes on the data:
 + Data belong to 1992 to 2015 
 + The fire sizes are classified as 7 different classes. The fire sizes are also available in 
 
-|**|number of acres within the final fire perimeter expenditures**|**Class ID** |
+|**number of acres within the final fire perimeter expenditures**|**Class ID** |
 | -- | --| 
 |0 - 0.25|A|
 |0.26-9.9|B|
