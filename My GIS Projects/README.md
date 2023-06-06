@@ -170,6 +170,20 @@ The interactive map provides various features such as panning, zooming, and brow
 
 In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfires, data obtained from Kaggle (https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires). My primary goal was to explore the data and find out any potential room for application of Machine Learning to see if we can predict the cause, location, or size of fire. So based on this exploratory data analysis, I will suggest different ML ideas, which could potentially be worth of more exploration. 
 
+Some quick notes on the data:
++ Data belong to 1992 to 2015 
++ The fire sizes are classified as 7 different classes. The fire sizes are also available in 
+
+|number of acres within the final fire perimeter expenditures|Class ID|
+|0 - 0.25|A|
+|0.26-9.9|B|
+|10.0-99.9|C|
+|100-299|D|
+|300 to 999|E|
+|1000 to 4999|F|
+|5000+|G|
+
+FIRE_SIZE_CLASS = Code for fire size based on the number of acres within the final fire perimeter expenditures (A=greater than 0 but less than or equal to 0.25 acres, B=0.26-9.9 acres, C=10.0-99.9 acres, D=100-299 acres, E=300 to 999 acres, F=1000 to 4999 acres, and G=5000+ acres).
 
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
