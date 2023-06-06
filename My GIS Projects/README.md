@@ -168,7 +168,7 @@ The interactive map provides various features such as panning, zooming, and brow
 
 ## 2. Exploratory Data Analysis on US Wildfires 
 
-In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfires, data obtained from Kaggle (https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires). My primary goal was to explore the data and find out any potential room for application of Machine Learning. So based on this exploratory data analysis I will suggest different ML ideas, which could potentially be worth of more exploration. 
+In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfires, data obtained from Kaggle (https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires). My primary goal was to explore the data and find out any potential room for application of Machine Learning to see if we can predict the cause, location, or size of fire. So based on this exploratory data analysis, I will suggest different ML ideas, which could potentially be worth of more exploration. 
 
 
 
