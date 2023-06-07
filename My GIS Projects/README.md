@@ -241,12 +241,14 @@ only showing top 20 rows
 
 Based on the above info, it seems that we can:
 
-    + map the fire using spatial info (long and lat), 
-    + see how long each fire took place which could provide some insight on each state capability to deal with fires, of course some parameters should be taken into account like the size of fire
-    + calculate fire frequency in US in total or per state
-    + investigate fire occurance per eason
-    + size of fire in each state
-    + ...
++ map the fire using spatial info (long and lat), 
++ see how long each fire took place which could provide some insight on each state capability to deal with fires, of course some parameters should be taken into account like the size of fire
++ calculate fire frequency in US in total or per state
++ investigate fire occurance per eason
++ size of fire in each state
++ ...
+
+
 
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
