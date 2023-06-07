@@ -250,11 +250,13 @@ Based on the above info, it seems that we can:
 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/US_Wildfire_locations_1992_2015.png)
+
 Fig. 2. 1: Locations of US Wildfires (1992 - 2015)
 
 Although 7 different fire size classes reported, it is good to know the average size of fire in each class:
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_Fire_Size_per_each_Class.png)
+
 Fig. 2. 2: Average US Wildfires Size per each Class (1992 - 2015)
 
 
