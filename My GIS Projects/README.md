@@ -168,6 +168,8 @@ The interactive map provides various features such as panning, zooming, and brow
 
 ## 2. Exploratory Data Analysis on US Wildfires 
 
+### Introduction
+
 In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfires, data obtained from Kaggle (https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires). My primary goal was to explore the data and find out any potential room for application of Machine Learning to see if we can predict the cause, location, or size of fire. So based on this exploratory data analysis, I will suggest different ML ideas, which could potentially be worth of more exploration. 
 
 Some quick notes on the data:
@@ -236,6 +238,15 @@ only showing top 20 rows
 |-120.411666670000...|38.94500000000000...|0.100000000000000000|              A|
 
 only showing top 20 rows
+
+Based on the above info, it seems that we can:
+
+    + map the fire using spatial info (long and lat), 
+    + see how long each fire took place which could provide some insight on each state capability to deal with fires, of course some parameters should be taken into account like the size of fire
+    + calculate fire frequency in US in total or per state
+    + investigate fire occurance per eason
+    + size of fire in each state
+    + ...
 
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
