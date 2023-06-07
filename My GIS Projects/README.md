@@ -267,7 +267,7 @@ As shown in Fig. 2. 3, California had the maximum number of fires during 1992 - 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_across_all_states_1992_2015.png)
 
-Fig. 2. 4: Cause of the US Wildfires (1992 - 2015)
+Fig. 2. 4: Cause of the US Wildfires (1992 - 2015) . 
 
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
