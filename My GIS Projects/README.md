@@ -261,9 +261,14 @@ Fig. 2. 2: Average US Wildfires Size per each Class (1992 - 2015)
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Wildfire_counts_per_US_state.png)
 
-Fig. 2. 3: US Wildfires counts per US state (1992 - 2015)
+Fig. 2. 3: The US Wildfires counts per state (1992 - 2015)
 
 As shown in Fig. 2. 3, California had the maximum number of fires during 1992 - 2015 followed by Georgia and Texas.
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_across_all_states_1992_2015.png)
+
+Fig. 2. 4: Cause of the US Wildfires (1992 - 2015)
+
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 
