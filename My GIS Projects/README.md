@@ -56,7 +56,7 @@ To generate a buffer of 80 m around greenways:
 
 which returns:
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df.png)
-Fig. 1: The buffered green pathways (with 80 m buffere distance) and the drinking fountains in Vancouver, BC
+Fig. 1. 1: The buffered green pathways (with 80 m buffere distance) and the drinking fountains in Vancouver, BC
 
 Now, I'd like to underlay the Vancouver map. For that I use **Contextily**, which is a Python library that provides a simple way to add web-based map tile layers to the geospatial visualizations and analysis. It allows to easily retrieve map tiles from various tile providers (such as OpenStreetMap, Stamen, and others) and underlay them on the spatial data:
 
@@ -76,7 +76,7 @@ Now, I'd like to underlay the Vancouver map. For that I use **Contextily**, whic
 
 ![](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/80_m_buffered_greenways_plus_df_with_osm.png)
 
-Fig. 2: The OpenStreetMap underlaid the spatial data of the buffered green pathways (with 80 m buffere distance) and the drinking fountains in Vancouver, BC
+Fig. 1. 2: The OpenStreetMap underlaid the spatial data of the buffered green pathways (with 80 m buffere distance) and the drinking fountains in Vancouver, BC
 
 
 Now, I'd like to know the location and coordinates (longitude and latitude) of the highly accessible drinking fountains along the green pathways: these fountains are at most 80 m depart from the green pathways. To do this calculation:
@@ -86,7 +86,7 @@ Now, I'd like to know the location and coordinates (longitude and latitude) of t
 
 These info is summarized as a dataframe whose screenshot of the first 15 records is depicted in the following:
 
-Table 1: Location and coordinates (longitude and latitude) of the highly accessible drinking fountains (the ones which are at most 80 m depart from the green pathways) along the green pathways
+Table 1. 1: Location and coordinates (longitude and latitude) of the highly accessible drinking fountains (the ones which are at most 80 m depart from the green pathways) along the green pathways
 
 ![](https://raw.githubusercontent.com/DanialArab/Geospatial_Data_Science/main/My%20GIS%20Projects/plots/fountains_within_buffer_dataframe.PNG)
 
@@ -132,7 +132,7 @@ The screenshot of the interactive map is presented Fig. 3:
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/interactive_map_screenshot_2.png)
 
-Fig. 3: Screenshot of the highly accessible drinking fountains along the green pathways in Vancouver, BC 
+Fig. 1. 3: Screenshot of the highly accessible drinking fountains along the green pathways in Vancouver, BC 
 
 To generate the heatmap:
 
@@ -160,7 +160,7 @@ To generate the heatmap:
 which returns: 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/heatmap_screenshot.png)
-Fig. 4: Heatmap of the highly accessible drinking fountains along the green pathways in Vancouver, BC 
+Fig. 1. 4: Heatmap of the highly accessible drinking fountains along the green pathways in Vancouver, BC 
 
 The interactive map provides various features such as panning, zooming, and browsing the map. Click on the link below to access and explore the map interactively:
 
@@ -250,6 +250,7 @@ Based on the above info, it seems that we can:
 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/US_Wildfire_locations_1992_2015.png)
+Fig. 2. 1: Locations of US Wildfires (1992 - 2015)
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 
