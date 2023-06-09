@@ -352,6 +352,30 @@ Fig. 2. 4: Cause of the US Wildfires across all the states (1992 - 2015)
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_NY_1992_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_TX_1992_2015.png)|
 
+|**(e)**|**(f)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_WV_1992_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_GA_1992_2015.png)|
+
+|**(e)**|**(f)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_MA_1992_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_KS_1992_2015.png)|
+
+|**(e)**|**(f)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_CO_1992_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_FL_1992_2015.png)|
+
+|**(e)**|**(f)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_AK_1992_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_AR_1992_2015.png)|
+
+|**(e)**|**(f)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_OK_1992_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_PR_1992_2015.png)|
+
+|**(e)**|**(f)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_UT_1992_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_HI_1992_2015.png)|
+
 
 Fig. 2. 5: Cause of the US Wildfires across different states: a) Alaska, b) California, c) Georgia, and d) Texas (1992 - 2015)
 
