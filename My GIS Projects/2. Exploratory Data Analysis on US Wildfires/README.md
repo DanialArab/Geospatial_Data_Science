@@ -99,7 +99,7 @@ Fig. 2. 3: The US Wildfires counts per state (1992 - 2015)
 
 As shown in Fig. 2. 3, California had the maximum number of fires during 1992 - 2015 followed by Georgia and Texas.
 
-The fire cause codes and definitions, adapted from the USFS (United States Forest Service) 2003 classification, are as follows:
+The fire cause codes and definitions, adapted from the USFS (United States Forest Service) 2003 classification, are as follow (Short, 2014):
 
 1. Lightning: This code is used when a fire is caused by lightning strikes. Lightning is a common natural cause of wildfires.
 
@@ -249,6 +249,8 @@ Fig. 2. 5: Cause of the US Wildfires across different states: a) Alaska, b) Cali
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 
+References:
 
+Short, K. C. 2014. A spatial database of wildfires in the United States, 1992-2011. Earth System Science Data. 6:1-27. https://doi.org/10.5194/essd-6-1-2014
 
 
