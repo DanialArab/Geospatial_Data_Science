@@ -1,7 +1,7 @@
 
 # My GIS Projects
 
-The jupyter notebook files for each projects containing all the Python scripts and end-to-end pipelines are attached to this repo and they are named consistently with the names of the projects in the following:
+This directory contains all the files of my GIS projects. The jupyter notebook files for each projects containing all the Python scripts and end-to-end pipelines are pushed to the directories named consistent with each project's name, which is as follow: 
 
 ## 1. Drinking fountains distribution along green pathways in Vancouver, BC, Canada.
 
