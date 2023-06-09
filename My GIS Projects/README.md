@@ -5,4 +5,4 @@ The jupyter notebook files for each projects containing all the Python scripts a
 
 ## 1. Drinking fountains distribution along green pathways in Vancouver, BC, Canada.
 
-
+## 2. Exploratory Data Analysis on US Wildfires
