@@ -380,6 +380,7 @@ Fig. 2. 4: Cause of the US Wildfires across all the states (1992 - 2015)
 Fig. 2. 5: Cause of the US Wildfires across different states: a) Alaska, b) California, c) Georgia, and d) Texas (1992 - 2015)
 
 
+
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 
 
