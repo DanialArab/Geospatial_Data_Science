@@ -260,7 +260,7 @@ Although 7 different fire size classes reported, it is good to know the average 
 
 Fig. 2. 2: Average US Wildfires Size per each Class (1992 - 2015)
 
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Wildfire_counts_per_US_state.png)
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Wildfire_counts_per_US_state_sorted.png)
 
 Fig. 2. 3: The US Wildfires counts per state (1992 - 2015)
 
