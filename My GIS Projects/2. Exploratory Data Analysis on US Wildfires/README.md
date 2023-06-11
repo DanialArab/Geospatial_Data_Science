@@ -93,12 +93,13 @@ Although 7 different fire size classes reported, it is good to know the average 
 
 Fig. 2. 2: Average US Wildfires Size per each Class (1992 - 2015)
 
+The number of wildfires per state is shown in Fig. 2. 3. As shown in this figure, California had the maximum number of fires during 1992 - 2015 followed by Georgia and Texas.
+
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Wildfire_counts_per_US_state_sorted.png)
 
 Fig. 2. 3: The US Wildfires counts per state (1992 - 2015)
 
-As shown in Fig. 2. 3, California had the maximum number of fires during 1992 - 2015 followed by Georgia and Texas.
-
+Other than the frequency of wildfires, it could be insightful to see how big the fire was in each state (see Fig. 2. 4 and 2. 5).
 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_fire_size_per_US_state.png)
@@ -106,9 +107,6 @@ Fig. 2. 4: The average size of US Wildfires per state (1992 - 2015)
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_fire_size_per_US_state.png)
 Fig. 2. 5: The total size of US Wildfires per state (1992 - 2015)
-
-
-
 
 
 The fire cause codes and definitions, adapted from the USFS (United States Forest Service) 2003 classification, are as follow (Short, 2014):
