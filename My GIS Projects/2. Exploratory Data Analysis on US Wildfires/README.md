@@ -101,9 +101,11 @@ As shown in Fig. 2. 3, California had the maximum number of fires during 1992 - 
 
 
 
-|**(1)**|**(2)** | 
-| -- | --| 
-|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_fire_size_per_US_state.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_fire_size_per_US_state.png)|
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_fire_size_per_US_state.png)
+Fig. 2. 4: The average size of US Wildfires per state (1992 - 2015)
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_fire_size_per_US_state.png)
+Fig. 2. 5: The total size of US Wildfires per state (1992 - 2015)
 
 
 
