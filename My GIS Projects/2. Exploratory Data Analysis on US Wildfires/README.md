@@ -109,6 +109,23 @@ Fig. 2. 4: The average size of US Wildfires per state (1992 - 2015)
 Fig. 2. 5: The total size of US Wildfires per state (1992 - 2015)
 
 
+|**(1)**|**(2)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_AK.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_CA.png)|
+
+
+|**(3)**|**(4)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_GA.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_ID.png)|
+
+
+|**(5)**|**(6)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_NC.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_TX.png)|
+
+
+
+
 The fire cause codes and definitions, adapted from the USFS (United States Forest Service) 2003 classification, are as follow (Short, 2014):
 
 1. Lightning: This code is used when a fire is caused by lightning strikes. Lightning is a common natural cause of wildfires.
