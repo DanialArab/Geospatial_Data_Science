@@ -387,7 +387,7 @@ As expected, there is a clear cyclic trend in the size of fire in each year, whi
 Fig. 2. 12: Size of US wildfire vs month (1992 - 2015)
 
 
-The data plotted in Fig. 2. 9 - 2. 11 is for all the states. It would be insightful to investigate the fire size during time in each state.
+The data plotted in Fig. 2. 9 - 2. 12 is for all the states. It would be insightful to investigate the fire size per month per state.
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 
