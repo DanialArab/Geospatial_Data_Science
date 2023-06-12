@@ -111,19 +111,109 @@ Fig. 2. 5: The total size of US Wildfires per state (1992 - 2015)
 
 |**(1)**|**(2)** | 
 | -- | --| 
-|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_AK.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_CA.png)|
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_AZ.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_SC.png)|
 
 
 |**(3)**|**(4)** | 
 | -- | --| 
-|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_GA.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_ID.png)|
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_LA.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_MN.png)|
 
 
 |**(5)**|**(6)** | 
 | -- | --| 
-|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_NC.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_TX.png)|
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_NJ.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_DC.png)|
 
+|**(7)**|**(8)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_OR.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_VA.png)|
 
+|**(9)**|**(10)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_RI.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_WY.png)|
+
+|**(11)**|**(12)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_KY.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_NH.png)|
+
+|**(13)**|**(14)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_MI.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_NV.png)|
+
+|**(15)**|**(16)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_WI.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_ID.png)|
+
+|**(17)**|**(18)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_CA.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_NE.png)|
+
+|**(19)**|**(20)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_CT.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_MT.png)|
+
+|**(21)**|**(22)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_NC.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_VT.png)|
+
+|**(23)**|**(24)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_MD.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_DE.png)|
+
+|**(25)**|**(26)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_MO.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_IL.png)|
+
+|**(27)**|**(28)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_ME.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_WA.png)|
+
+|**(29)**|**(30)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_ND.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_MS.png)|
+
+|**(31)**|**(32)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_AL.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_IN.png)|
+
+|**(33)**|**(34)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_OH.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_TN.png)|
+
+|**(35)**|**(36)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_NM.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_IA.png)|
+
+|**(37)**|**(38)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_PA.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_SD.png)|
+
+|**(39)**|**(40)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_NY.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_TX.png)|
+
+|**(41)**|**(42)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_WV.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_GA.png)|
+
+|**(43)**|**(44)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_MA.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_KS.png)|
+
+|**(45)**|**(46)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_CO.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_FL.png)|
+
+|**(47)**|**(48)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_AK.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_AR.png)|
+
+|**(49)**|**(50)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_OK.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_PR.png)|
+
+|**(51)**|**(52)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_UT.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_HI.png)|
 
 
 The fire cause codes and definitions, adapted from the USFS (United States Forest Service) 2003 classification, are as follow (Short, 2014):
