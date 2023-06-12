@@ -380,7 +380,12 @@ Fig. 2. 10: Size of US wildfire vs date (2000 - 2008)
 
 Fig. 2. 11: Size of US wildfire vs date (2008 - 2016)
 
-As expected, there is a clear cycle in the size of fire in each year, which peaks between June to August. The data plotted in Fig. 2. 9 - 2. 11 is for all the states. It would be insightful to investigate the fire size during time in each state.
+As expected, there is a clear cycle in the size of fire in each year, which peaks between June to August. To more quantitatively investigate this observation, the fire size across all the US states vs months is plotted in Fig. 2. 12.
+
+
+
+
+The data plotted in Fig. 2. 9 - 2. 11 is for all the states. It would be insightful to investigate the fire size during time in each state.
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 
