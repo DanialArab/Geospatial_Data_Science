@@ -510,8 +510,42 @@ Comparing Fig. 2. 8 and 2. 13 can lead to a coherent conclusion: the larger the 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_2843_Wildfires_in_TX_1996.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_770_Wildfires_in_TX_1997.png)|
 
 
+|**(7)**|**(8)** |
+| -- | --|  
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_2026_Wildfires_in_TX_1998.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_1775_Wildfires_in_TX_1999.png)|
 
 
+|**(9)**|**(10)** |
+| -- | --|  
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_2627_Wildfires_in_TX_2000.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_771_Wildfires_in_TX_2001.png)|
+
+|**(11)**|**(12)** |
+| -- | --|  
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_1229_Wildfires_in_TX_2002.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_1147_Wildfires_in_TX_2003.png)|
+
+|**(13)**|**(14)** |
+| -- | --|  
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_1040_Wildfires_in_TX_2004.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_6901_Wildfires_in_TX_2005.png)|
+
+|**(15)**|**(16)** |
+| -- | --|  
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_15022_Wildfires_in_TX_2006.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_5477_Wildfires_in_TX_2007.png)|
+
+|**(17)**|**(18)** |
+| -- | --|  
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_18067_Wildfires_in_TX_2008.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_14142_Wildfires_in_TX_2009.png)|
+
+|**(19)**|**(20)** |
+| -- | --|  
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_9351_Wildfires_in_TX_2010.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_19453_Wildfires_in_TX_2011.png)|
+
+|**(21)**|**(22)** |
+| -- | --|  
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_7623_Wildfires_in_TX_2012.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_9735_Wildfires_in_TX_2013.png)|
+
+|**(23)**|**(24)** |
+| -- | --|  
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_8538_Wildfires_in_TX_2014.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_8304_Wildfires_in_TX_2015.png)|
 
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
