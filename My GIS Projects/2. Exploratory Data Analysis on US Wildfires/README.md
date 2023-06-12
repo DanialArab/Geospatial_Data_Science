@@ -369,8 +369,16 @@ As shown in Fig. 2. 8 - 47, more than 30 % of the wildfires in Alaska is caused 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_1992_2000.png)
 
-Fig. 2. 9:ff
+Fig. 2. 9: Size of US wildfire vs date (1992 - 2000)
 
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_2000_2008.png)
+
+Fig. 2. 10: Size of US wildfire vs date (2000 - 2008)
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_2008_2016.png)
+
+Fig. 2. 11: Size of US wildfire vs date (2008 - 2016)
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 
