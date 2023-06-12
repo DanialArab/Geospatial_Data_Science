@@ -388,6 +388,12 @@ Fig. 2. 12: Size of US wildfire vs month for all states (1992 - 2015)
 
 The data plotted in Fig. 2. 9 - 2. 12 is for all the states. It would be insightful to investigate the fire size per month per state.
 
+|**(1)**|**(2)** | 
+| -- | --| 
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month_in_AZ.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month_in_SC.png)|
+
+
+
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 
 References:
