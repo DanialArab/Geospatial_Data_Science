@@ -101,13 +101,13 @@ Fig. 2. 3: The US Wildfires counts per state (1992 - 2015)
 
 Other than the frequency of wildfires, it could be insightful to see how big the fire was in each state (see Fig. 2. 4 and 2. 5).
 
-
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_fire_size_per_US_state.png)
 Fig. 2. 4: The average size of US Wildfires per state (1992 - 2015)
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_fire_size_per_US_state.png)
 Fig. 2. 5: The total size of US Wildfires per state (1992 - 2015)
 
+As Fig. 2. 5 suggests, Alaska with only around 700,000 total population (https://en.wikipedia.org/wiki/Alaska) has the largest wildfire in US between 1992 adn 2015. The number of wildfires for each class size per state is shown in Fig. 2. 6.
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -215,6 +215,9 @@ Fig. 2. 5: The total size of US Wildfires per state (1992 - 2015)
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_UT.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_HI.png)|
 
+Fig. 2. 6: The US Wildfires counts of each fire size class per state (1992 - 2015)
+
+Comparing the plots for different states in Fig. 2. 6 shows that the number of wildfires generally decreases as the size of the fire incraeses. However, Alaska does not follow this trend and as shown in Fig. 2. 6 - 47, the number of wildfires increases as the size of fire incraeses from around 100 acres (class D) up to more than 5000 acres (class G). 
 
 The fire cause codes and definitions, adapted from the USFS (United States Forest Service) 2003 classification, are as follow (Short, 2014):
 
