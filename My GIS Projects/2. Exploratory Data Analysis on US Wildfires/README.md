@@ -83,6 +83,10 @@ Based on the above info we can:
 + ...
 
 
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/US_Wildfire_counts_per_Year.png)
+
+Fig. 2. ?: US Wildfire counts across all the states per year 
+
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/US_Wildfire_locations_1992_2015.png)
 
 Fig. 2. 1: Locations of US Wildfires (1992 - 2015)
