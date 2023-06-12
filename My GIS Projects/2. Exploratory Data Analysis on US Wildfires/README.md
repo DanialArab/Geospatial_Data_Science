@@ -98,11 +98,7 @@ As shown above, the minimum and maximum number of US Wildfires occured on 1997 a
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_114004_Wildfires_in_US_2006.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_74491_Wildfires_in_US_2015.png)|
 
-
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/US_Wildfire_locations_1992_2015.png)
-
-Fig. 2. 1: Locations of US Wildfires (1992 - 2015)
+Fig. 2. 1: Locations of US Wildfires across all states for 1) 1992, 2) 1997, 3) 2006, and 4) 2015 
 
 Although 7 different fire size classes reported, it is good to know the average size of fire in each class:
 
