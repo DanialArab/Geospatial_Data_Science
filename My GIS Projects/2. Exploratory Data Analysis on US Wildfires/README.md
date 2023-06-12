@@ -217,7 +217,7 @@ As Fig. 2. 5 suggests, Alaska with only around 700,000 total population (https:/
 
 Fig. 2. 6: The US Wildfires counts of each fire size class per state (1992 - 2015)
 
-Comparing the plots for different states in Fig. 2. 6 shows that the number of wildfires generally decreases as the size of the fire incraeses. However, Alaska does not follow this trend and as shown in Fig. 2. 6 - 47, the number of wildfires increases as the size of fire incraeses from around 100 acres (class D) up to more than 5000 acres (class G). 
+Comparing the plots for different states in Fig. 2. 6 shows that the number of wildfires generally decreases as the size of the fire incraeses. However, Alaska does not follow this trend and as shown in Fig. 2. 6 - 47, the number of wildfires increases as the size of fire incraeses from around 100 acres (class D) up to more than 5000 acres (class G). To further understand the wildfire occurence in different states, the fire cause in each state is investigated int he following.
 
 The fire cause codes and definitions, adapted from the USFS (United States Forest Service) 2003 classification, are as follow (Short, 2014):
 
@@ -251,9 +251,9 @@ To get an idea on the main root cause of the wildfire in US, the percentage of t
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_across_all_states_1992_2015.png)
 
-Fig. 2. 4: Cause of the US Wildfires across all the states (1992 - 2015)
+Fig. 2. 7: Cause of the US Wildfires across all the states (1992 - 2015)
 
-This information is useful in suggesting that the human activities play a crucial role as a main cause behind the US wildfires. To be able to provide a standardized way to classify and track the causes of wildfires per state the percentage of each cause per total number of wildfires per state are shown in Fig. 2. 5. These details can be helpful to agencies and organizations to analyze trends, develop prevention strategies, and allocate resources.
+This information is useful in suggesting that the human activities play a crucial role as a main cause behind the US wildfires. To be able to provide a standardized way to classify and track the causes of wildfires per state the percentage of each cause per total number of wildfires per state are shown in Fig. 2. 8. These details can be helpful to agencies and organizations to analyze trends, develop prevention strategies, and allocate resources.
 
 
 |**(1)**|**(2)** | 
@@ -363,7 +363,7 @@ This information is useful in suggesting that the human activities play a crucia
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_UT_1992_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_HI_1992_2015.png)|
 
 
-Fig. 2. 5: Cause of the US Wildfires across different states: a) Alaska, b) California, c) Georgia, and d) Texas (1992 - 2015)
+Fig. 2. 8: Cause of the US Wildfires across different states: a) Alaska, b) California, c) Georgia, and d) Texas (1992 - 2015)
 
 
 
