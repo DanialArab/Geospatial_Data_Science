@@ -502,12 +502,12 @@ Comparing Fig. 2. 8 and 2. 13 can lead to a coherent conclusion: the larger the 
 
 |**(3)**|**(4)** |
 | -- | --|  
-|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_907_Wildfires_in_TX_1994.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_907_Wildfires_in_TX_1994.png)|
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_907_Wildfires_in_TX_1994.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_1648_Wildfires_in_TX_1995.png)|
 
 
 |**(5)**|**(6)** |
 | -- | --|  
-|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_1648_Wildfires_in_TX_1995.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_2843_Wildfires_in_TX_1996.png)|
+|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_2843_Wildfires_in_TX_1996.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_770_Wildfires_in_TX_1997.png)|
 
 
 
