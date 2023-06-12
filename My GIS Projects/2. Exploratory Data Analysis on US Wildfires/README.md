@@ -364,6 +364,8 @@ This information is useful in suggesting that the human activities play a crucia
 
 Fig. 2. 8: Cause of the US Wildfires across different states: a) Alaska, b) California, c) Georgia, and d) Texas (1992 - 2015)
 
+As shown in Fig. 2. 8 - 47, more than 30 % of the wildfires in Alaska is caused by the ligthing strikes.
+
 
 
 
