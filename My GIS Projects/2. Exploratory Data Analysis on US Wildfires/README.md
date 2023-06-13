@@ -73,11 +73,13 @@ Based on the above info we can:
 <a name="5"></b>
 #### US Wildfire counts and sizes per year across the country and per state
 
+The total number and size of the US Wildfires across the country are shown in Fig. 2. 1-1 and 2, respectively. HERE
+
 |**(1)**|**(2)** | 
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/US_Wildfire_counts_per_Year.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/US_total_Wildfire_size_per_Year.png)|
 
-Fig. 2. ?: 1) US Wildfire counts across all the states per year, 2) US Wildfire size (acres) across all the states per year
+Fig. 2. 1: 1) US Wildfire counts across all the states per year, 2) US Wildfire size (acres) across all the states per year
 
 As shown above, the minimum and maximum number of US Wildfires occured on 1997 and 2006 with total number of 61450 and 114004, respectively. The distribution of these fires across states are shown in the following figures.
 
