@@ -3,7 +3,7 @@
 
 ### Introduction
 
-In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfires, data obtained from Kaggle (<a href="https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/" target="_blank" rel="noopener">link to the Kaggle data source </a>). My primary goal was to explore the data and find out any potential room for application of Machine Learning to see if we can predict the cause, location, or size of fire. So based on this exploratory data analysis, I will experiment different ML ideas, which could potentially be worth of more exploration, in a separate project named "3. Fire Predictor" (<a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/3.%20Fire%20Predictor/" target="_blank" rel="noopener">link to its repo</a>). 
+In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfires, data obtained from Kaggle (<a href="https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/" target="_blank" rel="noopener">link to the Kaggle data source</a>). My primary goal was to explore the data and find out any potential room for application of Machine Learning to see if we can predict the cause, location, or size of fire. So based on this exploratory data analysis, I will experiment different ML ideas, which could potentially be worth of more exploration, in a separate project named "3. Fire Predictor" (<a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/3.%20Fire%20Predictor/" target="_blank" rel="noopener">link to its repo</a>). 
 
 Some quick notes on the data:
 + Data belong to 1992 to 2015 
