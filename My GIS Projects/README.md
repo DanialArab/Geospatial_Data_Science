@@ -6,3 +6,5 @@ This directory contains all the files of my GIS projects. The reports and visual
 ## 1. Drinking fountains distribution along green pathways in Vancouver, BC, Canada.
 
 ## 2. Exploratory Data Analysis on US Wildfires
+
+## 3. Fire Predictor
