@@ -33,9 +33,14 @@ Some quick notes on the data:
        |-- FIRE_SIZE_CLASS: string (nullable = true)
 
 
-|**STATE**|**FIRE_YEAR** | **DISCOVERY_DOY**|  **CONT_DOY**| **STAT_CAUSE_DESCR**|
-| -- | --|  -- | -- | -- |
-|   CA|2005.000000000000...|33.00000000000000...|33.00000000000000...|   Miscellaneous|
+|**STATE**|**FIRE_YEAR** | **DISCOVERY_DOY**|  **CONT_DOY**| **STAT_CAUSE_DESCR**|**LONGITUDE**|**LATITUDE** | **FIRE_SIZE**|  **FIRE_SIZE_CLASS**|
+| -- | --|  -- | -- | -- | -- | --|  -- | -- |
+|   CA|2005.000000000000...|33.00000000000000...|33.00000000000000...|   Miscellaneous|-121.005833330000...|40.03694444000000...|0.100000000000000000|              A|
+
+
+s
+
+
 |   CA|2004.000000000000...|133.0000000000000...|133.0000000000000...|       Lightning|
 |   CA|2004.000000000000...|152.0000000000000...|152.0000000000000...|  Debris Burning|
 |   CA|2004.000000000000...|180.0000000000000...|185.0000000000000...|       Lightning|
