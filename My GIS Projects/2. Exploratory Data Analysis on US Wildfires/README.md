@@ -23,7 +23,9 @@ Some quick notes on the data:
 
    root
     |-- STATE: string (nullable = true)
+    
     |-- FIRE_YEAR: decimal(38,18) (nullable = true)
+    
     |-- DISCOVERY_DOY: decimal(38,18) (nullable = true)
     |-- CONT_DOY: decimal(38,18) (nullable = true)
     |-- STAT_CAUSE_DESCR: string (nullable = true)
