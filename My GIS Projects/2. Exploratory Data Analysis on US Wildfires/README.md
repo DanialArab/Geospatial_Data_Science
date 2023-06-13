@@ -7,9 +7,10 @@
 1. [Introduction](#1)
     1. [Some quick notes on the data](#2)
     2. [Potential ideas/deliverables](#3)
-3. [Docker architecture](#4)
-4. [Development workflow](#5)
-5. [Docker in action](#6)
+2. [Statistical analysis of the US Wildfires](#4)
+    1. [US Wildfire counts and sizes per year across the country and per state]((#5)
+4. [](#5)
+5. [](#6)
 
 
 <a name="1"></b>
@@ -66,7 +67,11 @@ Based on the above info we can:
 + investigate the main root cause of fire and see if this is state dependent 
 + ...
 
+<a name="4"></b>
+### Statistical analysis of the US Wildfires
 
+<a name="5"></b>
+#### US Wildfire counts and sizes per year across the country and per state
 
 |**(1)**|**(2)** | 
 | -- | --| 
