@@ -30,7 +30,7 @@ Some quick notes on the data:
        |-- LONGITUDE: decimal(38,18) (nullable = true)
        |-- LATITUDE: decimal(38,18) (nullable = true)
        |-- FIRE_SIZE: decimal(38,18) (nullable = true)
-       |-- DISCOVERY_DOY: decimal(38,18) (nullable = true)
+       |-- FIRE_SIZE_CLASS: string (nullable = true)
 
 
 |**STATE**|**FIRE_YEAR** | **DISCOVERY_DOY**|  **CONT_DOY**| **STAT_CAUSE_DESCR**|
