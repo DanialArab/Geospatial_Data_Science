@@ -44,11 +44,11 @@ The first four rows of the data, out of 1,880,465 records, are presented in the 
 Based on the above info we can:
 
 + map the fire using geospatial info (long and lat), 
-+ see how long each fire took place which could provide some insight on each state capability to deal with fires, of course some parameters should be taken into account like the size of fire
++ see how long each fire took place which could provide some insight on each state capability to deal with fires, of course some other parameters should be taken into account like the size of fire
 + calculate fire frequency in US in total or per state
-+ investigate fire occurance per eason
-+ size of fire in each state
-+ investigate the main root cause of fire and see if this is region dependent 
++ investigate fire occurance per season/month
++ size/frequency of fire in each state
++ investigate the main root cause of fire and see if this is state dependent 
 + ...
 
 |**(1)**|**(2)** | 
