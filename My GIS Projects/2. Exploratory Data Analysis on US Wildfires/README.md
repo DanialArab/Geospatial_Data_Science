@@ -32,7 +32,7 @@ Some quick notes on the data:
        |-- FIRE_SIZE: decimal(38,18) (nullable = true)
        |-- FIRE_SIZE_CLASS: string (nullable = true)
 
-The first four rows of the data, out of 1880465 records, are presented in the following:
+The first four rows of the data, out of 1,880,465 records, are presented in the following:
 
 |**STATE**|**FIRE_YEAR** | **DISCOVERY_DOY**|  **CONT_DOY**| **STAT_CAUSE_DESCR**|**LONGITUDE**|**LATITUDE** | **FIRE_SIZE**|  **FIRE_SIZE_CLASS**|
 | -- | --|  -- | -- | -- | -- | --|  -- | -- |
