@@ -21,18 +21,16 @@ Some quick notes on the data:
 
 + The followings are the useful attributes on which I will be focusing:
 
-   root
-    |-- STATE: string (nullable = true)
-    
-    |-- FIRE_YEAR: decimal(38,18) (nullable = true)
-    
-    |-- DISCOVERY_DOY: decimal(38,18) (nullable = true)
-    |-- CONT_DOY: decimal(38,18) (nullable = true)
-    |-- STAT_CAUSE_DESCR: string (nullable = true)
-    |-- LONGITUDE: decimal(38,18) (nullable = true)
-    |-- LATITUDE: decimal(38,18) (nullable = true)
-    |-- FIRE_SIZE: decimal(38,18) (nullable = true)
-    |-- DISCOVERY_DOY: decimal(38,18) (nullable = true)
+      root
+       |-- STATE: string (nullable = true)
+       |-- FIRE_YEAR: decimal(38,18) (nullable = true)
+       |-- DISCOVERY_DOY: decimal(38,18) (nullable = true)
+       |-- CONT_DOY: decimal(38,18) (nullable = true)
+       |-- STAT_CAUSE_DESCR: string (nullable = true)
+       |-- LONGITUDE: decimal(38,18) (nullable = true)
+       |-- LATITUDE: decimal(38,18) (nullable = true)
+       |-- FIRE_SIZE: decimal(38,18) (nullable = true)
+       |-- DISCOVERY_DOY: decimal(38,18) (nullable = true)
 
 
 |**STATE**|**FIRE_YEAR** | **DISCOVERY_DOY**|  **CONT_DOY**| **STAT_CAUSE_DESCR**|
