@@ -8,7 +8,7 @@
     1. [Some quick notes on the data](#2)
     2. [Potential ideas/deliverables](#3)
 2. [Statistical analysis of the US Wildfires](#4)
-    1. [US Wildfire counts and sizes per year across the country and per state]((#5)
+    1. [US Wildfire counts and sizes per year across the country and per state](#5)
 4. [](#5)
 5. [](#6)
 
