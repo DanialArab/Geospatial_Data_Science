@@ -1,11 +1,24 @@
 
 ## 2. Exploratory Data Analysis on US Wildfires 
 
+
+# Table of content
+
+1. [Introduction](#1)
+    1. [Some quick notes on the data](#2)
+    2. [Potential ideas/deliverables](#3)
+3. [Docker architecture](#4)
+4. [Development workflow](#5)
+5. [Docker in action](#6)
+
+
+<a name="1"></b>
 ### Introduction
 
 In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfires, data obtained from Kaggle (<a href="https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/" target="_blank" rel="noopener">link to the Kaggle data source</a>). My primary goal was to explore the data and find out any potential room for application of Machine Learning to see if we can predict the cause, location, or size of fire. So based on this exploratory data analysis, I will experiment different ML ideas, which could potentially be worth of more exploration, in a separate project named "3. Fire Predictor" (<a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/3.%20Fire%20Predictor/" target="_blank" rel="noopener">link to its repo</a>). 
 
-Some quick notes on the data:
+<a name="2"></b>
+#### Some quick notes on the data
 + Data belong to 1992 to 2015 
 + The fire sizes are classified as 7 different classes, as follow:
 
@@ -41,6 +54,8 @@ The first four rows of the data, out of 1,880,465 records, are presented in the 
 |   CA|2004.000000000000...|152.0000000000000...|152.0000000000000...|  Debris Burning|-120.404444440000...|38.93305556000000...|0.250000000000000000|              A|
 |   CA|2004.000000000000...|180.0000000000000...|185.0000000000000...|       Lightning|-120.735555560000...|38.98416667000000...|0.100000000000000000|              A|
 
+<a name="3"></b>
+#### Potential ideas/deliverables
 Based on the above info we can:
 
 + map the fire using geospatial info (long and lat), 
@@ -50,6 +65,8 @@ Based on the above info we can:
 + size/frequency of fire in each state
 + investigate the main root cause of fire and see if this is state dependent 
 + ...
+
+
 
 |**(1)**|**(2)** | 
 | -- | --| 
