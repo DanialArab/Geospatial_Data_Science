@@ -13,6 +13,8 @@ In this project, I trained ML model to predict US Wildfire size class, so my app
 |1000 to 4999|F|
 |5000 +|G|
 
+So the problem is a multiclass classification.
+
 side note:
 I could have approached the problem like a regression task because the data also includes, in addition to the fire size class, the fire size in acres.
 
