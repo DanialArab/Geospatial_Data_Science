@@ -564,25 +564,16 @@ Comparing Fig. 2. 8 and 2. 13 can lead to a coherent conclusion: the larger the 
 
 ML Ideas and some comments:
 
-|**FIRE_SIZE_CLASS**|**count** | 
-| -- | --|
-|              F|  7786|
-|              E| 14107|
-|              B|939376|
-|              D| 28427|
-|              C|220077|
-|              A|666919|
-|              G|  3773|
+|**FIRE_SIZE_CLASS**|**count** | **normalized count**|
+| -- | --| --|
+|              B|939376|49.95|
+|              A|666919|35.46|
+|              C|220077|11.703329|
+|              D| 28427|1.511701|
+|              E| 14107|0.750187|
+|              F|  7786|0.414047|
+|              G|  3773|0.200642|
 
-FIRE_SIZE_CLASS
-B                  0.499545
-A                  0.354656
-C                  0.117033
-D                  0.015117
-E                  0.007502
-F                  0.004140
-G                  0.002006
-Name: proportion, dtype: float64
 
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
