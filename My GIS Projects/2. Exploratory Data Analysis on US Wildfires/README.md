@@ -562,6 +562,19 @@ As shown in Fig. 2. 8 - 47, more than 30 % of the wildfires in Alaska is caused 
 Comparing Fig. 2. 8 and 2. 13 can lead to a coherent conclusion: the larger the weight of nature to cause the wildfire the more chance to shift the peak of fire size towards the hottest months i.e., June, July, and August. 
 
 
+ML Ideas and some comments:
+
+FIRE_SIZE_CLASS
+B                  0.499545
+A                  0.354656
+C                  0.117033
+D                  0.015117
+E                  0.007502
+F                  0.004140
+G                  0.002006
+Name: proportion, dtype: float64
+
+
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 
 Link to the Kaggle data source: https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires
