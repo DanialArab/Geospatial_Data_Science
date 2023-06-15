@@ -564,9 +564,8 @@ Comparing Fig. 2. 8 and 2. 13 can lead to a coherent conclusion: the larger the 
 
 ML Ideas and some comments:
 
-+---------------+------+
-|FIRE_SIZE_CLASS| count|
-+---------------+------+
+|**FIRE_SIZE_CLASS**|**count** | 
+| -- | --|
 |              F|  7786|
 |              E| 14107|
 |              B|939376|
@@ -574,8 +573,6 @@ ML Ideas and some comments:
 |              C|220077|
 |              A|666919|
 |              G|  3773|
-+---------------+------+
-
 
 FIRE_SIZE_CLASS
 B                  0.499545
