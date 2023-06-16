@@ -46,6 +46,26 @@ In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfir
        |-- FIRE_SIZE: decimal(38,18) (nullable = true)
        |-- FIRE_SIZE_CLASS: string (nullable = true)
 
++ The cause of the US wildfire is classified as 13 classes:
+
+| **STAT_CAUSE_DESCR**|**STAT_CAUSE_CODE**|
+| -- | -- |
+|        Lightning|              1|
+|    Equipment Use|              2|
+|          Smoking|              3|
+|         Campfire|              4|
+|   Debris Burning|              5|
+|         Railroad|              6|
+|            Arson|              7|
+|         Children|              8|
+|    Miscellaneous|              9|
+|        Fireworks|             10|
+|        Powerline|             11|
+|        Structure|             12|
+|Missing/Undefined|             13|
+
+
+
 The first four rows of the data, out of 1,880,465 records, are presented in the following:
 
 |**STATE**|**FIRE_YEAR** | **DISCOVERY_DOY**|  **CONT_DOY**| **STAT_CAUSE_DESCR**|**LONGITUDE**|**LATITUDE** | **FIRE_SIZE**|  **FIRE_SIZE_CLASS**|
