@@ -10,14 +10,17 @@ The python (pyspark) scripts for all the results in this exploratory data analys
     2. [Potential ideas/deliverables](#3)
 2. [Statistical analysis of the US Wildfires](#4)
     1. [US wildfires count and size](#5)
-       1. [US wildfire count and size per year across the country or each state](#6)
-       2. [US wildfire count and size per fire size class across the country or each state](#7)
-       3. [US wildfire count and size per cause of the wildfire across the country or each state](#8)  
-    2. [US wildfire count and size distribution vs. time](#9)
-       1. 
-4. [](#5)
-5. [](#6)
-
+       1. [US wildfires count and size per year across the country or each state](#6)
+       2. [US wildfires count and size per fire size class across the country or each state](#7)
+       3. [US wildfires count and size per cause of the wildfire across the country or each state](#8)  
+    2. [US wildfires count and size distribution vs. time](#9)
+       1. [US wildfires count and size distribution vs. time across the country](#10)
+       2. [US wildfires count and size distribution vs. time per state](#11)
+       3. [Average duration of wildfires](#12)
+            1. [per state](#13)
+            2. [across the country per month)[#14)
+            3. [across the country per fire class size)[#15)
+4. [Conclusion](#16)
 
 <a name="1"></b>
 ### Introduction
