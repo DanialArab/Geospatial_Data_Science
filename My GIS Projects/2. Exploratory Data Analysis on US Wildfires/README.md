@@ -634,7 +634,7 @@ Fig. 2. 8: Size of the US wildfire vs. month per state (1992 - 2015)
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_month.png)
 
 <a name="15"></b>
-###### cross the country per fire class size
+###### across the country per fire class size
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_fire_size_class.png)
 
