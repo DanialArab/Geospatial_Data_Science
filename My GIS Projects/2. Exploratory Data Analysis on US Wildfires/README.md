@@ -10,6 +10,7 @@ The python (pyspark) scripts for all the results in this exploratory data analys
     2. [Potential ideas/deliverables](#3)
 2. [Statistical analysis of the US Wildfires](#4)
     1. [US Wildfire counts and sizes per year across the country and per state](#5)
+    2. [US wildfire size distribution during time](#6) 
 4. [](#5)
 5. [](#6)
 
@@ -170,7 +171,10 @@ It would be insightfull to also see where, within each state, the wildfires were
 
 Fig. 2. 3: Locations of the Texas wildfires from 1992 to 2015
 
-As shown in Fig. 2. 3, east of Texas consistently experienced wildfire during the period of study. The wildfire center was shifted towards the Texas centre since 2005 (Fig. 2. 3-14) and propagated towards the north around 2011 (Fig. 2. 3-20)
+As shown in Fig. 2. 3, east of Texas consistently experienced wildfire during the period of study. The wildfire center was shifted towards the Texas centre since 2005 (Fig. 2. 3-14) and the fire was propagated towards the north on around 2011 (Fig. 2. 3-20)
+
+<a name="6"></b>
+#### US wildfire size distribution during time
 
 Also, it is useful to see if there is any trend in the wildfire occurance at different seasons/month during a year.
 
