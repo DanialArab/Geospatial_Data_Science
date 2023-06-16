@@ -22,19 +22,6 @@ The python (pyspark) scripts for all the results in this exploratory data analys
             3. [across the country per fire class size](#15)
 3. [Conclusion](#16)
 
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_fire_size_class.png)
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_month.png)
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_wildfires_in_US_1992_to_2015.png)
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_1992_2000.png)
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_2000_2008.png)
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_2008_2016.png)
-
-
 <a name="1"></b>
 ### Introduction
 
@@ -489,6 +476,9 @@ Comparing Fig. 2. 8 and 2. 13 can lead to a coherent conclusion: the larger the 
 <a name="9"></b>
 #### US wildfires count and size distribution vs. time
 
+<a name="10"></b>
+##### US wildfires count and size distribution vs. time across the country
+
 To see if there is any trend in the wildfire occurance at different seasons/month during a year, the fire size is plotted vs. date of fire occurance (Fig. 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_1992_2000.png)
@@ -505,6 +495,29 @@ Fig. 2. 5: Size of US wildfire vs date (2000 - 2008)
 Fig. 2. 6: Size of US wildfire vs date (2008 - 2016)
 
 As expected, there is a clear cyclic trend in the size of fire in each year, which peaks between June to August. To more quantitatively investigate this observation, the fire size across all the US states vs months is plotted in Fig. 2. 7.
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_1992_2000.png)
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_2000_2008.png)
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_2008_2016.png)
+
+<a name="11"></b>
+##### US wildfires count and size distribution vs. time per state
+Average duration of wildfires
+per state
+across the country per month
+across the country per fire class size
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_fire_size_class.png)
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_month.png)
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_wildfires_in_US_1992_to_2015.png)
+
+
+
+
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month.png)
 
