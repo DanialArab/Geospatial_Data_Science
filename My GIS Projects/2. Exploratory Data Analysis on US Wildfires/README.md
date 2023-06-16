@@ -46,6 +46,15 @@ In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfir
        |-- FIRE_SIZE: decimal(38,18) (nullable = true)
        |-- FIRE_SIZE_CLASS: string (nullable = true)
 
+The first four rows of the data containing the above attributes, out of 1,880,465 records, are presented in the following:
+
+|**STATE**|**FIRE_YEAR** | **DISCOVERY_DOY**|  **CONT_DOY**| **STAT_CAUSE_DESCR**|**LONGITUDE**|**LATITUDE** | **FIRE_SIZE**|  **FIRE_SIZE_CLASS**|
+| -- | --|  -- | -- | -- | -- | --|  -- | -- |
+|   CA|2005.000000000000...|33.00000000000000...|33.00000000000000...|   Miscellaneous|-121.005833330000...|40.03694444000000...|0.100000000000000000|              A|
+|   CA|2004.000000000000...|133.0000000000000...|133.0000000000000...|       Lightning|-121.005833330000...|40.03694444000000...|0.100000000000000000|              A|
+|   CA|2004.000000000000...|152.0000000000000...|152.0000000000000...|  Debris Burning|-120.404444440000...|38.93305556000000...|0.250000000000000000|              A|
+|   CA|2004.000000000000...|180.0000000000000...|185.0000000000000...|       Lightning|-120.735555560000...|38.98416667000000...|0.100000000000000000|              A|
+
 + The cause of the US wildfire is classified as 13 classes:
 
 | **STAT_CAUSE_DESCR**|**STAT_CAUSE_CODE**|
@@ -65,15 +74,6 @@ In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfir
 |Missing/Undefined|             13|
 
 
-
-The first four rows of the data, out of 1,880,465 records, are presented in the following:
-
-|**STATE**|**FIRE_YEAR** | **DISCOVERY_DOY**|  **CONT_DOY**| **STAT_CAUSE_DESCR**|**LONGITUDE**|**LATITUDE** | **FIRE_SIZE**|  **FIRE_SIZE_CLASS**|
-| -- | --|  -- | -- | -- | -- | --|  -- | -- |
-|   CA|2005.000000000000...|33.00000000000000...|33.00000000000000...|   Miscellaneous|-121.005833330000...|40.03694444000000...|0.100000000000000000|              A|
-|   CA|2004.000000000000...|133.0000000000000...|133.0000000000000...|       Lightning|-121.005833330000...|40.03694444000000...|0.100000000000000000|              A|
-|   CA|2004.000000000000...|152.0000000000000...|152.0000000000000...|  Debris Burning|-120.404444440000...|38.93305556000000...|0.250000000000000000|              A|
-|   CA|2004.000000000000...|180.0000000000000...|185.0000000000000...|       Lightning|-120.735555560000...|38.98416667000000...|0.100000000000000000|              A|
 
 <a name="3"></b>
 #### Potential ideas/deliverables
