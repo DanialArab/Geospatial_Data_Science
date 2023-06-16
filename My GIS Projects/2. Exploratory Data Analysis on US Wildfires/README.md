@@ -196,13 +196,6 @@ Fig. 2. 3: Locations of the Texas wildfires from 1992 to 2015
 
 As shown in Fig. 2. 3, east of Texas consistently experienced wildfire during the period of study. The wildfire center was shifted towards the Texas centre since 2005 (Fig. 2. 3-14) and the fire was propagated towards the north on around 2011 (Fig. 2. 3-20)
 
-
-Although 7 different fire size classes reported, it is good to know the average size of fire in each class:
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_Fire_Size_per_each_Class.png)
-
-Fig. 2. 2: Average US Wildfires Size per each Class (1992 - 2015)
-
 The number of wildfires per state is shown in Fig. 2. 3. As shown in this figure, California had the maximum number of fires during 1992 - 2015 followed by Georgia and Texas.
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Wildfire_counts_per_US_state_sorted.png)
@@ -217,7 +210,18 @@ Fig. 2. 4: The average size of US Wildfires per state (1992 - 2015)
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_fire_size_per_US_state.png)
 Fig. 2. 5: The total size of US Wildfires per state (1992 - 2015)
 
-As Fig. 2. 5 suggests, Alaska with only around 700,000 total population (https://en.wikipedia.org/wiki/Alaska) has the largest wildfire in US between 1992 adn 2015. The number of wildfires for each class size per state is shown in Fig. 2. 6.
+As Fig. 2. 5 suggests, Alaska with only around 700,000 total population (https://en.wikipedia.org/wiki/Alaska) has the largest wildfire in US between 1992 adn 2015. The number of wildfires for each class size per state is discussed next.
+
+
+<a name="7"></b>
+##### US wildfires count and size per fire size class across the country or within each state
+
+Although 7 different fire size classes were reported, it is good to know the average size of the fire in each class:
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_Fire_Size_per_each_Class.png)
+
+Fig. 2. 2: Average US Wildfires Size per each Class (1992 - 2015)
+
 
 |**(1)**|**(2)** | 
 | -- | --| 
