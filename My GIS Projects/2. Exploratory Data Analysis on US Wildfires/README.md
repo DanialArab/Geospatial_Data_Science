@@ -20,7 +20,7 @@ The python (pyspark) scripts for all the results in this exploratory data analys
             1. [per state](#13)
             2. [across the country per month](#14)
             3. [across the country per fire class size](#15)
-3. [Conclusion](#16)
+3. [Conclusions](#16)
 
 <a name="1"></b>
 ### Introduction
