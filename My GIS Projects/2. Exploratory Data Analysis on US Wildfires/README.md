@@ -1,6 +1,7 @@
 
 ## 2. Exploratory Data Analysis on US Wildfires 
 
+All the python (pyspark) scripts for all the results in this exploratory data analysis is included in the jupyter notebook named 'EDA on 1.88 Million US Wildfires.ipynb' attached to this repo. 
 
 # Table of content
 
