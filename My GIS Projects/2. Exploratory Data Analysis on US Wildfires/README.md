@@ -9,7 +9,7 @@ The python (pyspark) scripts for all the results in this exploratory data analys
     1. [Some quick notes on the data](#2)
     2. [Potential ideas/deliverables](#3)
 2. [Statistical analysis of the US Wildfires](#4)
-    1. [US wildfires count and size](#5)
+    1. [US wildfires count and size distribution vs. location](#5)
        1. [US wildfires count and size per year across the country or each state](#6)
        2. [US wildfires count and size per fire size class across the country or each state](#7)
        3. [US wildfires count and size per cause of the wildfire across the country or each state](#8)  
