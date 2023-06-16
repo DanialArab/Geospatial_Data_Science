@@ -1,7 +1,7 @@
 
 ## 2. Exploratory Data Analysis on US Wildfires 
 
-The python (pyspark) scripts for all the results in this exploratory data analysis are included in the jupyter notebook file named <a href="https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/2.%20Exploratory%20Data%20Analysis%20on%20US%20Wildfires/EDA%20on%201.88%20Million%20US%20Wildfires.ipynb" target="_blank" rel="noopener">EDA on 1.88 Million US Wildfires</a>, which is attached to this repo. 
+The python (pyspark) scripts for all the results in this exploratory data analysis are included in the jupyter notebook file named <a href="https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/2.%20Exploratory%20Data%20Analysis%20on%20US%20Wildfires/EDA%20on%201.88%20Million%20US%20Wildfires.ipynb" target="_blank" rel="noopener">EDA on 1.88 Million US Wildfires</a>. 
 
 # Table of content
 
@@ -73,7 +73,6 @@ The first four rows of the data containing the above attributes, out of 1,880,46
 |        Powerline|             11|
 |        Structure|             12|
 |Missing/Undefined|             13|
-
 
 
 <a name="3"></b>
