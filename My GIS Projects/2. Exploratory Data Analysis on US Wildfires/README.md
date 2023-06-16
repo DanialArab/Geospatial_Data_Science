@@ -85,7 +85,7 @@ Based on the above info we can:
 + investigate fire occurance per season/month
 + size/frequency of fire in each state
 + investigate the main root cause of fire and see if this is state dependent 
-+ ...
++ apply ML to discover any potential patterns in the data 
 
 <a name="4"></b>
 ### Statistical analysis of the US Wildfires
