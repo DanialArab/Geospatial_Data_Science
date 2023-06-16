@@ -502,28 +502,15 @@ As expected, there is a clear cyclic trend in the size of fire in each year, whi
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_2008_2016.png)
 
-<a name="11"></b>
-##### US wildfires count and size distribution vs. time per state
-Average duration of wildfires
-per state
-across the country per month
-across the country per fire class size
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_fire_size_class.png)
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_month.png)
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_wildfires_in_US_1992_to_2015.png)
-
-
-
-
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month.png)
 
 Fig. 2. 7: Size of US wildfire vs month for all states (1992 - 2015)
 
 The data plotted in Fig. 2. 4 - 2. 7 belong to all the states. It would be insightful to investigate the fire size per month per state (Fig. 2. 8).
+
+<a name="11"></b>
+##### US wildfires count and size distribution vs. time per state
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -630,6 +617,20 @@ The data plotted in Fig. 2. 4 - 2. 7 belong to all the states. It would be insig
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month_in_UT.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month_in_HI.png)|
 
 Fig. 2. 8: Size of the US wildfire vs. month per state (1992 - 2015)
+
+
+
+<a name="12"></b>
+##### Average duration of wildfires
+per state
+across the country per month
+across the country per fire class size
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_fire_size_class.png)
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_month.png)
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_wildfires_in_US_1992_to_2015.png)
 
 
 
