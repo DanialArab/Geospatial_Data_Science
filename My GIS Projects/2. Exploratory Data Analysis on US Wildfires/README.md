@@ -109,11 +109,14 @@ Based on the above info we can:
 + apply ML to discover any potential patterns in the data 
 
 <a name="4"></b>
-### Statistical analysis of the US Wildfires
+### Statistical analysis of the US wildfires
 
 <a name="5"></b>
-#### US Wildfire counts and sizes per year across the country and per state
+#### UUS wildfires count and size distribution vs. location
 
+<a name="6"></b>
+##### US wildfires count and size per year across the country or within each state
+       
 The total number and size of the US Wildfires across the country are shown in Fig. 2. 1-1 and 2. 1-2, respectively. 
 
 |**(1)**|**(2)** | 
