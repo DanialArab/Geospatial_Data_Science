@@ -168,6 +168,10 @@ It would be insightfull to also see where, within each state, the wildfires were
 | -- | --|  
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_8538_Wildfires_in_TX_2014.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_8304_Wildfires_in_TX_2015.png)|
 
+Fig. 2. 3: Locations of the Texas wildfires from 1992 to 2015
+
+As shown in Fig. 2. 3, east of Texas consistently experienced wildfire during the period of study. The wildfire center was shifted towards the Texas centre since 2005 (Fig. 2. 3-14) and propagated towards the north around 2011 (Fig. 2. 3-20)
+
 Also, it is useful to see if there is any trend in the wildfire occurance at different seasons/month during a year.
 
 
