@@ -176,29 +176,28 @@ As shown in Fig. 2. 3, east of Texas consistently experienced wildfire during th
 <a name="6"></b>
 #### US wildfire size distribution during time
 
-Also, it is useful to see if there is any trend in the wildfire occurance at different seasons/month during a year.
-
+To see if there is any trend in the wildfire occurance at different seasons/month during a year, the fire size is plotted vs. date of fire occurance (Fig. 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_1992_2000.png)
 
-Fig. 2. 9: Size of US wildfire vs date (1992 - 2000)
+Fig. 2. 4: Size of US wildfire vs date (1992 - 2000)
 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_2000_2008.png)
 
-Fig. 2. 10: Size of US wildfire vs date (2000 - 2008)
+Fig. 2. 5: Size of US wildfire vs date (2000 - 2008)
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_2008_2016.png)
 
-Fig. 2. 11: Size of US wildfire vs date (2008 - 2016)
+Fig. 2. 6: Size of US wildfire vs date (2008 - 2016)
 
-As expected, there is a clear cyclic trend in the size of fire in each year, which peaks between June to August. To more quantitatively investigate this observation, the fire size across all the US states vs months is plotted in Fig. 2. 12.
+As expected, there is a clear cyclic trend in the size of fire in each year, which peaks between June to August. To more quantitatively investigate this observation, the fire size across all the US states vs months is plotted in Fig. 2. 7.
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month.png)
 
-Fig. 2. 12: Size of US wildfire vs month for all states (1992 - 2015)
+Fig. 2. 7: Size of US wildfire vs month for all states (1992 - 2015)
 
-The data plotted in Fig. 2. 9 - 2. 12 is for all the states. It would be insightful to investigate the fire size per month per state.
+The data plotted in Fig. 2. 4 - 2. 7 belong to all the states. It would be insightful to investigate the fire size per month per state (Fig. 2. 8).
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -304,7 +303,7 @@ The data plotted in Fig. 2. 9 - 2. 12 is for all the states. It would be insight
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month_in_UT.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month_in_HI.png)|
 
-Fig. 2. 13: Size of US wildfire vs month per state (1992 - 2015)
+Fig. 2. 8: Size of the US wildfire vs. month per state (1992 - 2015)
 
 Although 7 different fire size classes reported, it is good to know the average size of fire in each class:
 
