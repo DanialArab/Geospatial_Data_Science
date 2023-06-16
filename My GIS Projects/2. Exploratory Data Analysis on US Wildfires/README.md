@@ -93,7 +93,7 @@ Based on the above info we can:
 <a name="5"></b>
 #### US Wildfire counts and sizes per year across the country and per state
 
-The total number and size of the US Wildfires across the country are shown in Fig. 2. 1-1 and 2, respectively. HERE
+The total number and size of the US Wildfires across the country are shown in Fig. 2. 1-1 and 2. 1-2, respectively. 
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -101,7 +101,7 @@ The total number and size of the US Wildfires across the country are shown in Fi
 
 Fig. 2. 1: 1) US Wildfire counts across all the states per year, 2) US Wildfire size (acres) across all the states per year
 
-As shown above, the minimum and maximum number of US Wildfires occured on 1997 and 2006 with total number of 61450 and 114004, respectively. The distribution of these fires across states are shown in the following figures.
+As shown above, the minimum and maximum number of US Wildfires occured on 1997 and 2006 with total number of 61450 and 114004, respectively. The distributions of the the US wildfires in 1992, 1997, 2006, and 2015 are shown on the following maps.
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -112,9 +112,9 @@ As shown above, the minimum and maximum number of US Wildfires occured on 1997 a
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_114004_Wildfires_in_US_2006.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_74491_Wildfires_in_US_2015.png)|
 
-Fig. 2. 1: Locations of US Wildfires across all states for 1) 1992, 2) 1997, 3) 2006, and 4) 2015 
+Fig. 2. 2: Locations of US Wildfires across all states for 1) 1992, 2) 1997, 3) 2006, and 4) 2015 
 
-It would be insightfull to also see where within each state the wildfires were formed. As an example, the wildfires' location in  Texas state during 1992 to 2015 are shown in the following:
+It would be insightfull to also see where, within each state, the wildfires were formed. As an example, the wildfires' location in Texas state during 1992 to 2015 are shown in the following:
 
 
 |**(1)**|**(2)** |
