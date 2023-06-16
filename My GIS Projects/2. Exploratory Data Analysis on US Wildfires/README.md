@@ -18,8 +18,8 @@ The python (pyspark) scripts for all the results in this exploratory data analys
        2. [US wildfires count and size distribution vs. time per state](#11)
        3. [Average duration of wildfires](#12)
             1. [per state](#13)
-            2. [across the country per month)[#14)
-            3. [across the country per fire class size)[#15)
+            2. [across the country per month](#14)
+            3. [across the country per fire class size](#15)
 4. [Conclusion](#16)
 
 <a name="1"></b>
