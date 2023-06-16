@@ -15,7 +15,7 @@ The python (pyspark) scripts for all the results in this exploratory data analys
        3. [US wildfires count and size per cause of the wildfire across the country or within each state](#8)  
     2. [US wildfires count and size distribution vs. time](#9)
        1. [US wildfires count and size distribution vs. time across the country](#10)
-       2. [US wildfires count and size distribution vs. time per state](#11)
+       2. [US wildfires size distribution vs. time per state](#11)
        3. [Average duration of wildfires](#12)
             1. [per state](#13)
             2. [across the country per month](#14)
@@ -510,7 +510,7 @@ Fig. 2. 7: Size of US wildfire vs month for all states (1992 - 2015)
 The data plotted in Fig. 2. 4 - 2. 7 belong to all the states. It would be insightful to investigate the fire size per month per state (Fig. 2. 8).
 
 <a name="11"></b>
-##### US wildfires count and size distribution vs. time per state
+##### US wildfires size distribution vs. time per state
 
 |**(1)**|**(2)** | 
 | -- | --| 
