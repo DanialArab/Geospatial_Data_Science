@@ -114,6 +114,23 @@ Based on the above info we can:
 <a name="5"></b>
 #### UUS wildfires count and size distribution vs. location
 
+
+The number of wildfires per state is shown in Fig. 2. 3. As shown in this figure, California had the maximum number of fires during 1992 - 2015 followed by Georgia and Texas.
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Wildfire_counts_per_US_state_sorted.png)
+
+Fig. 2. 3: The US Wildfires counts per state (1992 - 2015)
+
+Other than the frequency of wildfires, it could be insightful to see how big the fire was in each state (see Fig. 2. 4 and 2. 5).
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_fire_size_per_US_state.png)
+Fig. 2. 4: The average size of US Wildfires per state (1992 - 2015)
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_fire_size_per_US_state.png)
+Fig. 2. 5: The total size of US Wildfires per state (1992 - 2015)
+
+As Fig. 2. 5 suggests, Alaska with only around 700,000 total population (https://en.wikipedia.org/wiki/Alaska) has the largest wildfire in US between 1992 adn 2015. The number of wildfires for each class size per state is discussed next.
+
 <a name="6"></b>
 ##### US wildfires count and size per year across the country or within each state
        
@@ -137,22 +154,6 @@ As shown above, the minimum and maximum number of US Wildfires occured on 1997 a
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_114004_Wildfires_in_US_2006.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_74491_Wildfires_in_US_2015.png)|
 
 Fig. 2. 2: Locations of US Wildfires across all states for 1) 1992, 2) 1997, 3) 2006, and 4) 2015 
-
-The number of wildfires per state is shown in Fig. 2. 3. As shown in this figure, California had the maximum number of fires during 1992 - 2015 followed by Georgia and Texas.
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Wildfire_counts_per_US_state_sorted.png)
-
-Fig. 2. 3: The US Wildfires counts per state (1992 - 2015)
-
-Other than the frequency of wildfires, it could be insightful to see how big the fire was in each state (see Fig. 2. 4 and 2. 5).
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_fire_size_per_US_state.png)
-Fig. 2. 4: The average size of US Wildfires per state (1992 - 2015)
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_fire_size_per_US_state.png)
-Fig. 2. 5: The total size of US Wildfires per state (1992 - 2015)
-
-As Fig. 2. 5 suggests, Alaska with only around 700,000 total population (https://en.wikipedia.org/wiki/Alaska) has the largest wildfire in US between 1992 adn 2015. The number of wildfires for each class size per state is discussed next.
 
 It would be insightfull to also see where, within each state, the wildfires were formed. As an example, the wildfires' location in Texas state during 1992 to 2015 are shown in the following:
 
