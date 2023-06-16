@@ -592,6 +592,14 @@ ML Ideas and some comments:
 |           12.0|  3796|0.20
 
 
+ideas to consider for ML
+
+1. Given state, county, cause of fire, date, can I predict the fire size class? (the problem is classification)
+2. Given state, county, cause of fire, date, can I predict the fire size ? (the problem is regression)
+3. Given time, location, and size can I predict the cause of the fire? is it a function of seasons? 
+4. comparison of fire discovery date with cont_date in various years and various states may be useful like how many days took to control fire in various states and also in the same state as a function of time this also can be a function of fire size
+
+
 
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 
