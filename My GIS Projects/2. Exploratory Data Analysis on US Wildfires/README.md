@@ -10,9 +10,9 @@ The python (pyspark) scripts for all the results in this exploratory data analys
     2. [Potential ideas/deliverables](#3)
 2. [Statistical analysis of the US Wildfires](#4)
     1. [US wildfires count and size distribution vs. location](#5)
-       1. [US wildfires count and size per year across the country or within each state](#6)
-       2. [US wildfires count and size per fire size class across the country or within each state](#7)
-       3. [US wildfires count and size per cause of the wildfire across the country or within each state](#8)  
+       1. [US wildfires count and size distribution per year across the country or within each state](#6)
+       2. [US wildfires count and size distribution per fire size class across the country or within each state](#7)
+       3. [US wildfires count and size distribution per cause of the wildfire across the country or within each state](#8)  
     2. [US wildfires count and size distribution vs. time](#9)
        1. [US wildfires count and size distribution vs. time across the country](#10)
        2. [US wildfires size distribution vs. time per state](#11)
@@ -117,9 +117,9 @@ Fig. 2. 5: The total size of US Wildfires per state (1992 - 2015)
 As Fig. 2. 5 suggests, Alaska with only around 700,000 total population (https://en.wikipedia.org/wiki/Alaska) had the largest wildfire in the US between 1992 and 2015. 
 
 <a name="6"></b>
-##### US wildfires count and size per year across the country or within each state
+##### US wildfires count and size distribution per year across the country or within each state
        
-The total number and size of the US Wildfires across the country are shown in Fig. 2. 1-1 and 2. 1-2, respectively. 
+The total count and size of the US Wildfires across the country are shown in Fig. 2. 1-1 and 2. 1-2, respectively. 
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -127,7 +127,7 @@ The total number and size of the US Wildfires across the country are shown in Fi
 
 Fig. 2. 1: 1) US Wildfire counts across all the states per year, 2) US Wildfire size (acres) across all the states per year
 
-As shown above, the minimum and maximum number of US Wildfires occured on 1997 and 2006 with total number of 61450 and 114004, respectively. The distributions of the the US wildfires in 1992, 1997, 2006, and 2015 are shown on the following maps.
+As shown above, the minimum and maximum number of US Wildfires occurred in 1997 and 2006 with a total number of 61,450 and 114,004, respectively. The distributions of the US wildfires in 1992, 1997, 2006, and 2015 are shown on the following maps.
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -140,7 +140,7 @@ As shown above, the minimum and maximum number of US Wildfires occured on 1997 a
 
 Fig. 2. 2: Locations of US Wildfires across all states for 1) 1992, 2) 1997, 3) 2006, and 4) 2015 
 
-It would be insightfull to also see where, within each state, the wildfires were formed. As an example, the wildfires' location in Texas state during 1992 to 2015 are shown in the following:
+It would be insightful to also see where, within each state, the wildfires were formed. As an example, the location of the wildfires in state of Texas, from 1992 to 2015, are shown in the following:
 
 
 |**(1)**|**(2)** |
@@ -196,12 +196,12 @@ It would be insightfull to also see where, within each state, the wildfires were
 
 Fig. 2. 3: Locations of the Texas wildfires from 1992 to 2015
 
-As shown in Fig. 2. 3, east of Texas consistently experienced wildfire during the period of study. The wildfire center was shifted towards the Texas centre since 2005 (Fig. 2. 3-14) and the fire was propagated towards the north on around 2011 (Fig. 2. 3-20).
+As shown in Fig. 2. 3, east of Texas consistently experienced wildfire during the period of study. The wildfire center was shifted towards the Texas center since 2005 (Fig. 2. 3-14) and the fire was propagated towards the north on around 2011 (Fig. 2. 3-20). 
 
-To be more specific, the number of wildfires per each class size within each state is discussed next.
+To be more specific, the number of wildfires per class size within each state is discussed next.
 
 <a name="7"></b>
-##### US wildfires count and size per fire size class across the country or within each state
+##### US wildfires count and size distribution per fire size class across the country or within each state
 
 Although 7 different fire size classes were reported, it is good to know the average size of the fire in each class:
 
