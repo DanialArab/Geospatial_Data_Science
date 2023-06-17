@@ -107,7 +107,7 @@ The number of wildfires per state is shown in Fig. 2. 1. As shown in this figure
 
 Fig. 2. 1: The US Wildfire counts per state (1992 - 2015)
 
-Other than the frequency of wildfires, it could be insightful to see how big the fire was in each state (see Fig. 2. 2 and 2. 4).
+Other than the frequency of wildfires, it could be insightful to see how big the fire was in each state (see Fig. 2. 2 and 2. 3).
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_fire_size_per_US_state.png)
 
@@ -117,18 +117,18 @@ Fig. 2. 2: The average size of US Wildfires per state (1992 - 2015)
 
 Fig. 2. 3: The total size of US Wildfires per state (1992 - 2015)
 
-As Fig. 2. 5 suggests, Alaska with only around 700,000 total population (https://en.wikipedia.org/wiki/Alaska) had the largest wildfire in the US between 1992 and 2015. 
+As Fig. 2. 2 and 2. 3 show Alaska with only around 700,000 total population (https://en.wikipedia.org/wiki/Alaska) had the largest wildfire in the US between 1992 and 2015. 
 
 <a name="6"></b>
 ##### US wildfires count and size distribution per year across the country or within each state
        
-The total count and size of the US Wildfires across the country are shown in Fig. 2. 1-1 and 2. 1-2, respectively. 
+The total count and size of the US Wildfires across the country are shown in Fig. 2. 4-1 and 2. 4-2, respectively. 
 
 |**(1)**|**(2)** | 
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/US_Wildfire_counts_per_Year.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/US_total_Wildfire_size_per_Year.png)|
 
-Fig. 2. 1: 1) US Wildfire counts across all the states per year, 2) US Wildfire size (acres) across all the states per year
+Fig. 2. 4: 1) US Wildfire counts across all the states per year, 2) US Wildfire size (acres) across all the states per year
 
 As shown above, the minimum and maximum number of US Wildfires occurred in 1997 and 2006 with a total number of 61,450 and 114,004, respectively. The distributions of the US wildfires in 1992, 1997, 2006, and 2015 are shown on the following maps.
 
@@ -141,9 +141,9 @@ As shown above, the minimum and maximum number of US Wildfires occurred in 1997 
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_114004_Wildfires_in_US_2006.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_74491_Wildfires_in_US_2015.png)|
 
-Fig. 2. 2: Locations of US Wildfires across all states for 1) 1992, 2) 1997, 3) 2006, and 4) 2015 
+Fig. 2. 5: Locations of US Wildfires across all states for 1) 1992, 2) 1997, 3) 2006, and 4) 2015 
 
-It would be insightful to also see where, within each state, the wildfires were formed. As an example, the location of the wildfires in state of Texas, from 1992 to 2015, are shown in the following:
+It would be insightful to also see where, within each state, the wildfires were formed. As an example, the location of the wildfires in the state of Texas, from 1992 to 2015, are shown in the following:
 
 
 |**(1)**|**(2)** |
@@ -197,9 +197,9 @@ It would be insightful to also see where, within each state, the wildfires were 
 | -- | --|  
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_8538_Wildfires_in_TX_2014.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_8304_Wildfires_in_TX_2015.png)|
 
-Fig. 2. 3: Locations of the Texas wildfires from 1992 to 2015
+Fig. 2. 6: Locations of the Texas wildfires from 1992 to 2015
 
-As shown in Fig. 2. 3, east of Texas consistently experienced wildfire during the period of study. The wildfire center was shifted towards the Texas center since 2005 (Fig. 2. 3-14) and the fire was propagated towards the north on around 2011 (Fig. 2. 3-20). 
+As shown in Fig. 2. 6, the east of Texas consistently experienced wildfire during the period of study. The wildfire center was shifted towards the Texas center since 2005 (Fig. 2. 6-14) and the fire was propagated towards the north on around 2011 (Fig. 2. 6-20). 
 
 To be more specific, the number of wildfires per class size within each state is discussed next.
 
@@ -210,7 +210,7 @@ Although 7 different fire size classes were reported, it is good to know the ave
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_Fire_Size_per_each_Class.png)
 
-Fig. 2. 2: Average US Wildfires Size in acres per each Class (1992 - 2015)
+Fig. 2. 7: Average US Wildfires Size in acres per each Class (1992 - 2015)
 
 The total counts of the wildfires in each state per size class are shown in the following figure.
 
@@ -320,9 +320,9 @@ The total counts of the wildfires in each state per size class are shown in the 
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_UT.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_HI.png)|
 
-Fig. 2. 6: The US Wildfires counts per size class in each state (1992 - 2015)
+Fig. 2. 8: The US Wildfire counts per size class in each state (1992 - 2015)
 
-Comparing the plots for different states in Fig. 2. 6 shows that the number of wildfires generally decreases as the size of the fire increases. However, Alaska does not follow this trend and as shown in Fig. 2. 6 - 47, the number of wildfires increases as the size of the fire increases from around 100 acres (class D) up to more than 5,000 acres (class G). To further understand the wildfire occurrence in different states, the fire cause in each state is investigated in the following.
+Comparing the plots for different states in Fig. 2. 8 shows that the number of wildfires generally decreases as the size of the fire increases. However, Alaska does not follow this trend and as shown in Fig. 2. 8 - 47, the number of wildfires increases as the size of the fire increases from around 100 acres (class D) up to more than 5,000 acres (class G). To further understand the wildfire occurrence in different states, the fire cause in each state is investigated in the following.
 
 <a name="8"></b>
 ##### US wildfires count and size distribution per cause of the wildfire across the country or within each state
@@ -359,9 +359,9 @@ To get an idea of the main root cause of the wildfire in the US in total, the pe
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_across_all_states_1992_2015.png)
 
-Fig. 2. 7: Frequency of the US wildfire cause across the country (1992 - 2015)
+Fig. 2. 9: Frequency of the US wildfire cause across the country (1992 - 2015)
 
-This information is useful in suggesting that human activities such as **Debris Burning** and **Arson** play a crucial role as the main causes behind the US wildfires. To be able to provide a standardized way to classify and track the causes of wildfires per state the percentage of each cause per total number of wildfires per state is shown in Fig. 2. 8. These details can be helpful to agencies and organizations to analyze trends, develop prevention strategies, and allocate resources.
+This information is useful in suggesting that human activities such as **Debris Burning** and **Arson** play a crucial role as the main causes behind the US wildfires. To be able to provide a standardized way to classify and track the causes of wildfires per state the percentage of each cause per total number of wildfires per state is shown in Fig. 2. 10. These details can be helpful to agencies and organizations to analyze trends, develop prevention strategies, and allocate resources.
 
 
 |**(1)**|**(2)** | 
@@ -470,9 +470,9 @@ This information is useful in suggesting that human activities such as **Debris 
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_UT_1992_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_HI_1992_2015.png)|
 
-Fig. 2. 8: Frequency of the US wildfire cause per state (1992 - 2015) 
+Fig. 2. 10: Frequency of the US wildfire cause per state (1992 - 2015) 
 
-As shown in Fig. 2. 8 - 47, more than 30 % of the wildfires in Alaska are caused by lightning strikes.
+As shown in Fig. 2. 10 - 47, more than 30 % of the wildfires in Alaska are caused by lightning strikes.
 
 <a name="9"></b>
 #### US wildfires count and size distribution vs. time
@@ -480,46 +480,46 @@ As shown in Fig. 2. 8 - 47, more than 30 % of the wildfires in Alaska are caused
 <a name="10"></b>
 ##### US wildfires count and size distribution vs. time across the country
 
-To see if there is any meaningful trend in the wildfire occurrence at different seasons/months of the year, the fire size is plotted vs. the date of fire occurrence (Fig. ..). 
+To see if there is any meaningful trend in the wildfire occurrence at different seasons/months of the year, the fire size is plotted vs. the date of fire occurrence (Fig. 2. 11, 2. 12, and 2. 13) 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_1992_2000.png)
 
-Fig. 2. 4: Size of US wildfire vs date (1992 - 2000)
+Fig. 2. 11: Size of US wildfire vs. date (1992 - 2000)
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_2000_2008.png)
 
-Fig. 2. 5: Size of US wildfire vs date (2000 - 2008)
+Fig. 2. 12: Size of US wildfire vs. date (2000 - 2008)
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_2008_2016.png)
 
-Fig. 2. 6: Size of US wildfire vs date (2008 - 2016)
+Fig. 2. 13: Size of US wildfire vs. date (2008 - 2016)
 
-Also, the total counts of the wildfires are plotted against the date of fire occurrence to study any correlation with seasons/months of the year (Fig. ..). 
+Also, the total counts of the wildfires are plotted against the date of fire occurrence to study any correlation with seasons/months of the year (Fig. 2. 14, 2. 15, and 2. 16). 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_1992_2000.png)
 
-Fig. 2. 6: COunts of US wildfire vs date (1992 - 2000)
+Fig. 2. 14: COunts of US wildfire vs. date (1992 - 2000)
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_2000_2008.png)
 
-Fig. 2. 6: COunts of US wildfire vs date (2000 - 2008)
+Fig. 2. 15: COunts of US wildfire vs. date (2000 - 2008)
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_2008_2016.png)
 
-Fig. 2. 6: COunts of US wildfire vs date (2008 - 2016)
+Fig. 2. 16: COunts of US wildfire vs. date (2008 - 2016)
 
-As expected, there is a clear cyclic trend in the size and counts of fire in each year, which peaks between June to August. To more quantitatively investigate this observation, the fire size across all the US states vs. months is plotted in Fig. 2. 7.
+As expected, there is a clear cyclic trend in the size and counts of fire in each year, which peaks between June to August. To more quantitatively investigate this observation, the fire size across all the US states vs. months is plotted in Fig. 2. 17.
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month.png)
 
-Fig. 2. 7: Size of US wildfire vs. month across the country (1992 - 2015)
+Fig. 2. 17: Size of US wildfire vs. month across the country (1992 - 2015)
 
-The data plotted in Fig. 2. 4 - 2. 7 belong to all the states. The fire size per month within each state will be discussed next. 
+The data plotted in Fig. 2. 11 to 2. 17 belong to all the states. The fire size per month within each state will be discussed next. 
 
 <a name="11"></b>
 ##### US wildfires size distribution vs. time per state
 
-The total size of wildfires in acres per month in each state is shown in Fig. .. . 
+The total size of wildfires in acres per month in each state is shown in Fig. 2. 18.  
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -625,9 +625,9 @@ The total size of wildfires in acres per month in each state is shown in Fig. ..
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month_in_UT.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month_in_HI.png)|
 
-Fig. 2. 8: Size of the US wildfire vs. month in each state (1992 - 2015)
+Fig. 2. 18: Size of the US wildfire vs. month in each state (1992 - 2015)
 
-Comparing Fig. 2. 8 and 2. 13 can lead to a coherent conclusion: the larger the weight of nature to cause the wildfire the more chance to shift the peak of fire size towards the hottest months i.e., June, July, and August. This is clearly observed comparing Fig. .. which show in the state of Alaska where the main cause of the fire is lightning (with more than 30%) had the largest size of fires in the hottest months of the year i.e., June and July. On the other hand, in the state of Texas where the first three most frequent causes of wildfires are due to human activities (Debris Burning, Equipment Use, and Arson) March and April are the months with the largest fires. 
+Comparing Fig. 2. 18 and 2. 13 can lead to a coherent conclusion: the larger the weight of nature to cause the wildfire the more chance to shift the peak of fire size towards the hottest months i.e., June, July, and August. This is clearly observed comparing Fig. .. which show in the state of Alaska where the main cause of the fire is lightning (with more than 30%) had the largest size of fires in the hottest months of the year i.e., June and July. On the other hand, in the state of Texas where the first three most frequent causes of wildfires are due to human activities (Debris Burning, Equipment Use, and Arson) March and April are the months with the largest fires. 
 
 
 <a name="12"></b>
