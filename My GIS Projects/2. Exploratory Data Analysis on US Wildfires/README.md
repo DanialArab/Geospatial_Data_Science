@@ -21,7 +21,7 @@ The python (pyspark) scripts for all the results in this exploratory data analys
             2. [Average duration of wildfires across the country per month](#14)
             3. [Average duration of wildfires across the country per fire size class](#15)
 3. [Conclusions](#16)
-4. [References])(#17)
+4. [References](#17)
 
 <a name="1"></b>
 ### Introduction
