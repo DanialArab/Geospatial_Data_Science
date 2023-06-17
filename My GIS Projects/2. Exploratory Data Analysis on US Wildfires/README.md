@@ -627,7 +627,7 @@ The total size of wildfires in acres per month in each state is shown in Fig. 2.
 
 Fig. 2. 18: Size of the US wildfire vs. month in each state (1992 - 2015)
 
-Comparing Fig. 2. 18 and 2. 13 can lead to a coherent conclusion: the larger the weight of nature to cause the wildfire the more chance to shift the peak of fire size towards the hottest months i.e., June, July, and August. This is clearly observed comparing Fig. .. which show in the state of Alaska where the main cause of the fire is lightning (with more than 30%) had the largest size of fires in the hottest months of the year i.e., June and July. On the other hand, in the state of Texas where the first three most frequent causes of wildfires are due to human activities (Debris Burning, Equipment Use, and Arson) March and April are the months with the largest fires. 
+Comparing Fig. 2. 10 and 2. 18 can lead to a coherent conclusion: the larger the weight of nature to cause the wildfire the more chance to shift the peak of fire size towards the hottest months i.e., June, July, and August. This is clearly observed for the state of Alaska where the main cause of fire is lightning (with more than 30%) had the largest size of fires in the hottest months of the year i.e., June and July. On the other hand, in the state of Texas where the first three most frequent causes of wildfires are due to human activities (Debris Burning, Equipment Use, and Arson) March and April are the months with the largest fires.  
 
 
 <a name="12"></b>
@@ -638,29 +638,29 @@ Another important insight that can potentially reveal the capability of the stat
 <a name="13"></b>
 ###### Average duration of wildfires per state
 
-The average duration of wildfires per state is shown in Fig. .. . As shown below, Hawaii had the largest firing time, followed by Alaska and New Jersey. The partial explanation for the largest duration of wildfires in Hawaii and Alaska could be their remote location and difficult accessibility. 
+The average duration of wildfires per state is shown in Fig. 2. 19. As shown below, Hawaii had the largest firing time, followed by Alaska and New Jersey. The partial explanation for the largest duration of wildfires in Hawaii and Alaska could be their remote location and difficult accessibility. 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_wildfires_in_US_1992_to_2015.png)
 
-Fig. : Average duration of US wildfires per state (1992 - 2015) 
+Fig. 2. 19: Average duration of US wildfires per state (1992 - 2015) 
 
 <a name="14"></b>
 ###### Average duration of wildfires across the country per month
 
-The average duration of wildfires per month across the country is shown in Fig. .. . As shown below, the hottest months of June, July, and August had the largest wildfire duration of around 2 days. However, these data need to be separated by each fire size class to be more informative, which will be done next.
+The average duration of wildfires per month across the country is shown in Fig. 2. 20. As shown below, the hottest months of June, July, and August had the largest wildfire duration of around 2 days. However, these data need to be separated by each fire size class to be more informative, which will be done next.
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_month.png)
 
-Fig. : Average duration of US wildfires per month across the country (1992 - 2015) 
+Fig. 2. 20: Average duration of US wildfires per month across the country (1992 - 2015) 
 
 <a name="15"></b>
 ###### Average duration of wildfires across the country per fire size class
 
-The average duration of wildfire  across the country but per each fire size class is plotted in Fig. . As shown, there is a clear meaningful trend: the larger the size of the fire the harder to control it and so the larger duration of wildfires.
+The average duration of wildfire  across the country but per each fire size class is plotted in Fig. 2. 21. As shown, there is a clear meaningful trend: the larger the size of the fire the harder to control it and so the larger duration of wildfires.
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_fire_size_class.png)
 
-Fig. : Average duration of US wildfires per fire size class (1992 - 2015) 
+Fig. 2. 21: Average duration of US wildfires per fire size class (1992 - 2015) 
 
 
 <a name="16"></b>
