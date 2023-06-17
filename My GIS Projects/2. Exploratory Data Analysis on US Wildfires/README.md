@@ -208,8 +208,9 @@ Although 7 different fire size classes were reported, it is good to know the ave
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_Fire_Size_per_each_Class.png)
 
-Fig. 2. 2: Average US Wildfires Size per each Class (1992 - 2015)
+Fig. 2. 2: Average US Wildfires Size in acres per each Class (1992 - 2015)
 
+The total counts of the wildfires in each state per size class are shown in the following figure.
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -317,15 +318,14 @@ Fig. 2. 2: Average US Wildfires Size per each Class (1992 - 2015)
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_UT.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Number_of_Fires_per_size_class_in_HI.png)|
 
-Fig. 2. 6: The US Wildfires counts of each fire size class per state (1992 - 2015)
+Fig. 2. 6: The US Wildfires counts per size class in each state (1992 - 2015)
+
+Comparing the plots for different states in Fig. 2. 6 shows that the number of wildfires generally decreases as the size of the fire increases. However, Alaska does not follow this trend and as shown in Fig. 2. 6 - 47, the number of wildfires increases as the size of the fire increases from around 100 acres (class D) up to more than 5,000 acres (class G). To further understand the wildfire occurrence in different states, the fire cause in each state is investigated in the following.
 
 <a name="8"></b>
 ##### US wildfires count and size distribution per cause of the wildfire across the country or within each state
 
-
-Comparing the plots for different states in Fig. 2. 6 shows that the number of wildfires generally decreases as the size of the fire increases. However, Alaska does not follow this trend and as shown in Fig. 2. 6 - 47, the number of wildfires increases as the size of fire increases from around 100 acres (class D) up to more than 5000 acres (class G). To further understand the wildfire occurrence in different states, the fire cause in each state is investigated in the following.
-
-The fire cause codes and definitions, adapted from the USFS (United States Forest Service) 2003 classification, are as follow (Short, 2014):
+The fire cause codes and definitions, adapted from the United States Forest Service (USFS) - 2003 classification, are as follows (Short, 2014):
 
 1. Lightning: This code is used when a fire is caused by lightning strikes. Lightning is a common natural cause of wildfires.
 
@@ -335,7 +335,7 @@ The fire cause codes and definitions, adapted from the USFS (United States Fores
 
 4. Campfire: This code is assigned when a fire originates from an improperly managed or unattended campfire. It includes cases where campfires spread beyond their intended area or are left burning without proper extinguishment.
 
-5. Debris Burning: This code is used when a fire is caused by the burning of debris, such as vegetation or waste materials. It includes cases where the fire gets out of control during debris burning activities.
+5. Debris Burning: This code is used when a fire is caused by the burning of debris, such as vegetation or waste materials. It includes cases where the fire gets out of control during debris-burning activities.
 
 6. Railroad: This code is assigned when a fire is ignited by activities related to railroad operations, such as sparks from trains or maintenance activities.
 
@@ -351,15 +351,15 @@ The fire cause codes and definitions, adapted from the USFS (United States Fores
 
 12. Structure: This code is assigned when a fire starts in or around a structure, such as a building or a dwelling.
 
-M13. issing/Undefined: This code is used when the cause of the fire is unknown or cannot be determined due to lack of information or evidence.
+13. Missing/Undefined: This code is used when the cause of the fire is unknown or cannot be determined due to a lack of information or evidence.
 
-To get an idea on the main root cause of the wildfire in US, the percentage of the wildfires caused by each cause is shown in Fig. 2. 4. 
+To get an idea of the main root cause of the wildfire in the US in total, the percentage of wildfires caused by each cause is shown in Fig. 2. 4. 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_across_all_states_1992_2015.png)
 
-Fig. 2. 7: Cause of the US Wildfires across all the states (1992 - 2015)
+Fig. 2. 7: Frequency of the US wildfire cause across the country (1992 - 2015)
 
-This information is useful in suggesting that the human activities play a crucial role as a main cause behind the US wildfires. To be able to provide a standardized way to classify and track the causes of wildfires per state the percentage of each cause per total number of wildfires per state are shown in Fig. 2. 8. These details can be helpful to agencies and organizations to analyze trends, develop prevention strategies, and allocate resources.
+This information is useful in suggesting that human activities such as **Debris Burning** and **Arson** play a crucial role as the main causes behind the US wildfires. To be able to provide a standardized way to classify and track the causes of wildfires per state the percentage of each cause per total number of wildfires per state is shown in Fig. 2. 8. These details can be helpful to agencies and organizations to analyze trends, develop prevention strategies, and allocate resources.
 
 
 |**(1)**|**(2)** | 
@@ -468,11 +468,9 @@ This information is useful in suggesting that the human activities play a crucia
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_UT_1992_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_in_HI_1992_2015.png)|
 
-Fig. 2. 8: Cause of the US Wildfires across different states: a) Alaska, b) California, c) Georgia, and d) Texas (1992 - 2015)
+Fig. 2. 8: Frequency of the US wildfire cause per state (1992 - 2015) 
 
-As shown in Fig. 2. 8 - 47, more than 30 % of the wildfires in Alaska is caused by the ligthing strikes.
-
-Comparing Fig. 2. 8 and 2. 13 can lead to a coherent conclusion: the larger the weight of nature to cause the wildfire the more chance to shift the peak of fire size towards the hottest months i.e., June, July, and August. 
+As shown in Fig. 2. 8 - 47, more than 30 % of the wildfires in Alaska are caused by lightning strikes.
 
 <a name="9"></b>
 #### US wildfires count and size distribution vs. time
@@ -480,12 +478,11 @@ Comparing Fig. 2. 8 and 2. 13 can lead to a coherent conclusion: the larger the 
 <a name="10"></b>
 ##### US wildfires count and size distribution vs. time across the country
 
-To see if there is any trend in the wildfire occurance at different seasons/month during a year, the fire size is plotted vs. date of fire occurance (Fig. 
+To see if there is any meaningful trend in the wildfire occurrence at different seasons/months of the year, the fire size is plotted vs. the date of fire occurrence (Fig. ..). 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_1992_2000.png)
 
 Fig. 2. 4: Size of US wildfire vs date (1992 - 2000)
-
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_Size_vs_date_2000_2008.png)
 
@@ -495,23 +492,32 @@ Fig. 2. 5: Size of US wildfire vs date (2000 - 2008)
 
 Fig. 2. 6: Size of US wildfire vs date (2008 - 2016)
 
-As expected, there is a clear cyclic trend in the size of fire in each year, which peaks between June to August. To more quantitatively investigate this observation, the fire size across all the US states vs months is plotted in Fig. 2. 7.
+Also, the total counts of the wildfires are plotted against the date of fire occurrence to study any correlation with seasons/months of the year (Fig. ..). 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_1992_2000.png)
 
+Fig. 2. 6: COunts of US wildfire vs date (1992 - 2000)
+
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_2000_2008.png)
+
+Fig. 2. 6: COunts of US wildfire vs date (2000 - 2008)
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Fire_counts_vs_date_2008_2016.png)
 
+Fig. 2. 6: COunts of US wildfire vs date (2008 - 2016)
+
+As expected, there is a clear cyclic trend in the size and counts of fire in each year, which peaks between June to August. To more quantitatively investigate this observation, the fire size across all the US states vs. months is plotted in Fig. 2. 7.
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month.png)
 
-Fig. 2. 7: Size of US wildfire vs month for all states (1992 - 2015)
+Fig. 2. 7: Size of US wildfire vs. month across the country (1992 - 2015)
 
-The data plotted in Fig. 2. 4 - 2. 7 belong to all the states. It would be insightful to investigate the fire size per month per state (Fig. 2. 8).
+The data plotted in Fig. 2. 4 - 2. 7 belong to all the states. The fire size per month within each state will be discussed next. 
 
 <a name="11"></b>
 ##### US wildfires size distribution vs. time per state
+
+The total size of wildfires in acres per month in each state is shown in Fig. .. . 
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -617,12 +623,15 @@ The data plotted in Fig. 2. 4 - 2. 7 belong to all the states. It would be insig
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month_in_UT.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month_in_HI.png)|
 
-Fig. 2. 8: Size of the US wildfire vs. month per state (1992 - 2015)
+Fig. 2. 8: Size of the US wildfire vs. month in each state (1992 - 2015)
 
+Comparing Fig. 2. 8 and 2. 13 can lead to a coherent conclusion: the larger the weight of nature to cause the wildfire the more chance to shift the peak of fire size towards the hottest months i.e., June, July, and August. This is clearly observed comparing Fig. .. which show in the state of Alaska where the main cause of the fire is lightning (with more than 30%) had the largest size of fires in the hottest months of the year i.e., June and July. On the other hand, in the state of Texas where the first three most frequent causes of wildfires are due to human activities (Debris Burning, Equipment Use, and Arson) March and April are the months with the largest fires. 
 
 
 <a name="12"></b>
 ##### Average duration of wildfires
+
+Another important insight that can potentially reveal the capability of the states to deal with water is the duration of the wildfires. The data contain the fire discovery date and also the date when the fire got under control. So we can calculate the duration of the wildfire, which is plotted int he following. 
 
 <a name="13"></b>
 ###### per state
@@ -638,6 +647,8 @@ Fig. 2. 8: Size of the US wildfire vs. month per state (1992 - 2015)
 ###### across the country per fire class size
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_fire_size_class.png)
+
+
 
 
 <a name="16"></b>
