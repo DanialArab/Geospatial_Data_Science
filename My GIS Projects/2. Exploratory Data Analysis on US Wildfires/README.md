@@ -26,7 +26,7 @@ The python (pyspark) scripts for all the results in this exploratory data analys
 <a name="1"></b>
 ### Introduction
 
-In this project, I use Spark to perform the EDA on the Sqlite data of 1.88 Million US Wildfires (<a href="https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/" target="_blank" rel="noopener">link to the Kaggle data source</a>). My primary goal was to explore the data and find out any potential room for application of Machine Learning to see if we can predict the cause, location, or size of fire. So based on this exploratory data analysis, I will experiment different ML ideas, which could potentially be worth of more exploration, in a separate project named "3. Fire Predictor" (<a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/3.%20Fire%20Predictor/" target="_blank" rel="noopener">link to its repo</a>). 
+In this project, I use Spark to perform exploratory data analysis on the Sqlite data of 1.88 Million US Wildfires (<a href="https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/" target="_blank" rel="noopener">link to the Kaggle data source</a>). My primary goal was to explore the data and find out any potential room for application of Machine Learning to see if we can predict the cause, location, or size of fire. So based on this exploratory data analysis, I will experiment different ML ideas, which could potentially be worth of more exploration, in a separate project named "3. Fire Predictor" (<a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/3.%20Fire%20Predictor/" target="_blank" rel="noopener">link to its repo</a>). 
 
 <a name="2"></b>
 #### Some quick notes on the data
@@ -65,7 +65,7 @@ The first four rows of the data containing the above attributes, out of 1,880,46
 |   CA|2004.000000000000...|152.0000000000000...|152.0000000000000...|  Debris Burning|-120.404444440000...|38.93305556000000...|0.250000000000000000|              A|
 |   CA|2004.000000000000...|180.0000000000000...|185.0000000000000...|       Lightning|-120.735555560000...|38.98416667000000...|0.100000000000000000|              A|
 
-+ The cause of the US wildfire is classified as 13 classes:
++ The cause of the US wildfires is classified into 13 classes:
 
 | **STAT_CAUSE_DESCR**|**STAT_CAUSE_CODE**|
 | -- | -- |
@@ -86,9 +86,9 @@ The first four rows of the data containing the above attributes, out of 1,880,46
 
 <a name="3"></b>
 #### Potential ideas/deliverables
-Based on the above info we can:
+Based on the above data we can:
 
-+ map the fire using geospatial info (long and lat), 
++ map the fire using geospatial info (longitude and latitude)  
 + see how long each fire took place which could provide some insight into each state's capability to deal with fires, of course, some other parameters such as size of the fire should be taken into account 
 + calculate fire size/frequency in US in total or per state
 + investigate fire occurrence per season/month
@@ -130,7 +130,7 @@ The total count and size of the US Wildfires across the country are shown in Fig
 
 Fig. 2. 4: 1) US Wildfire counts across all the states per year, 2) US Wildfire size (acres) across all the states per year
 
-As shown above, the minimum and maximum number of US Wildfires occurred in 1997 and 2006 with a total number of 61,450 and 114,004, respectively. The distributions of the US wildfires in 1992, 1997, 2006, and 2015 are shown on the following maps.
+As shown above, the minimum and maximum number of US Wildfires occurred in 1997 and 2006 with a total number of 61,450 and 114,004, respectively. Although there is no clear correlation between the number of wildfires with year, the size of fires generally tends to increase later towards 2015 (Fig. 2. 4-2). The distributions of the US wildfires in 1992, 1997, 2006, and 2015 are shown on the following maps.
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -210,7 +210,7 @@ Although 7 different fire size classes were reported, it is good to know the ave
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_Fire_Size_per_each_Class.png)
 
-Fig. 2. 7: Average US Wildfires Size in acres per each Class (1992 - 2015)
+Fig. 2. 7: Average US Wildfires size in acres per each size class (1992 - 2015)
 
 The total counts of the wildfires in each state per size class are shown in the following figure.
 
@@ -322,7 +322,7 @@ The total counts of the wildfires in each state per size class are shown in the 
 
 Fig. 2. 8: The US Wildfire counts per size class in each state (1992 - 2015)
 
-Comparing the plots for different states in Fig. 2. 8 shows that the number of wildfires generally decreases as the size of the fire increases. However, Alaska does not follow this trend and as shown in Fig. 2. 8 - 47, the number of wildfires increases as the size of the fire increases from around 100 acres (class D) up to more than 5,000 acres (class G). To further understand the wildfire occurrence in different states, the fire cause in each state is investigated in the following.
+Comparing the plots for different states in Fig. 2. 8 shows that the number of wildfires generally decreases as the size of the fire increases. However, Alaska does not follow this trend and as shown in Fig. 2. 8 - 47, the number of wildfires increases as the size of the fire increases from around 100 acres (class D) up to more than 5,000 acres (class G). This will be further investigated later. Also, the state of DC only experienced small fires within classes A and B (Fig. 2. 8-6). To further understand the wildfire occurrence in different states, the fire cause in each state is investigated in the following.
 
 <a name="8"></b>
 ##### US wildfires count and size distribution per cause of the wildfire across the country or within each state
@@ -355,7 +355,7 @@ The fire cause codes and definitions, adapted from the United States Forest Serv
 
 13. Missing/Undefined: This code is used when the cause of the fire is unknown or cannot be determined due to a lack of information or evidence.
 
-To get an idea of the main root cause of the wildfire in the US in total, the percentage of wildfires caused by each cause is shown in Fig. 2. 4. 
+To get an idea of the main root cause of the wildfire in the US in total, the percentage of wildfires caused by each cause is shown in Fig. 2. 9. 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_across_all_states_1992_2015.png)
 
@@ -633,7 +633,7 @@ Comparing Fig. 2. 10 and 2. 18 can lead to a coherent conclusion: the larger the
 <a name="12"></b>
 ##### Average duration of wildfires
 
-Another important insight that can potentially reveal the capability of the states to deal with water is the duration of the wildfires. The data contain the fire discovery date and also the date when the fire got under control. So we can calculate the duration of the wildfire, which is plotted in the following. 
+Another important insight that can potentially reveal the capability of the states to deal with fire is the duration of the wildfires. The data contain the fire discovery date and also the date when the fire got under control. So we can calculate the duration of the wildfire, which is plotted in the following. 
 
 <a name="13"></b>
 ###### Average duration of wildfires per state
