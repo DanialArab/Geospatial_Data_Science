@@ -17,9 +17,9 @@ The python (pyspark) scripts for all the results in this exploratory data analys
        1. [US wildfires count and size distribution vs. time across the country](#10)
        2. [US wildfires size distribution vs. time per state](#11)
        3. [Average duration of wildfires](#12)
-            1. [per state](#13)
-            2. [across the country per month](#14)
-            3. [across the country per fire class size](#15)
+            1. [Average duration of wildfires per state](#13)
+            2. [Average duration of wildfires across the country per month](#14)
+            3. [Average duration of wildfires across the country per fire size class](#15)
 3. [Conclusions](#16)
 
 
@@ -631,23 +631,32 @@ Comparing Fig. 2. 8 and 2. 13 can lead to a coherent conclusion: the larger the 
 <a name="12"></b>
 ##### Average duration of wildfires
 
-Another important insight that can potentially reveal the capability of the states to deal with water is the duration of the wildfires. The data contain the fire discovery date and also the date when the fire got under control. So we can calculate the duration of the wildfire, which is plotted int he following. 
+Another important insight that can potentially reveal the capability of the states to deal with water is the duration of the wildfires. The data contain the fire discovery date and also the date when the fire got under control. So we can calculate the duration of the wildfire, which is plotted in the following. 
 
 <a name="13"></b>
-###### per state
+###### Average duration of wildfires per state
+
+The average duration of wildfires per state is shown in Fig. .. . As shown below, Hawaii had the largest firing time, followed by Alaska and New Jersey. The partial explanation for the largest duration of wildfires in Hawaii and Alaska could be their remote location and difficult accessibility. 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_wildfires_in_US_1992_to_2015.png)
 
+Fig. : Average duration of US wildfires across the country (1992 - 2015) 
+
 <a name="14"></b>
-###### across the country per month
+###### Average duration of wildfires across the country per month
+
+The average duration of wildfires per month across the country is shown in Fig. .. . As shown below, the hottest months of June, July, and August had the largest wildfire duration of around 2 days. However, these data need to be separated by each fire size class to be more informative, which will be done next.
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_month.png)
 
+Fig. : Average duration of US wildfires per month the country (1992 - 2015) 
+
 <a name="15"></b>
-###### across the country per fire class size
+###### Average duration of wildfires across the country per fire size class
+
+The average duration of wildfire  across the country but per each fire size class is plotted in Fig. . As shown, there is a clear meaningful trend: the larger the size of the fire the harder to control it and so the larger duration of wildfires.
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_fire_size_class.png)
-
 
 
 
