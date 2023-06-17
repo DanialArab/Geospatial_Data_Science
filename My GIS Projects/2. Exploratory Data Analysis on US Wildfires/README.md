@@ -664,6 +664,8 @@ Fig. : Average duration of US wildfires per fire size class (1992 - 2015)
 <a name="16"></b>
 ## Conclusions
 
+HERE 
+
 ML Ideas and some comments:
 
 |**FIRE_SIZE_CLASS**|**count** | **normalized count (%)**|
