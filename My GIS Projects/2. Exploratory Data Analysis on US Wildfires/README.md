@@ -25,7 +25,7 @@ The python (pyspark) scripts for all the results in this exploratory data analys
 <a name="1"></b>
 ### Introduction
 
-In this project, I use Spark to play with Sqlite data of 1.88 Million US Wildfires, data obtained from Kaggle (<a href="https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/" target="_blank" rel="noopener">link to the Kaggle data source</a>). My primary goal was to explore the data and find out any potential room for application of Machine Learning to see if we can predict the cause, location, or size of fire. So based on this exploratory data analysis, I will experiment different ML ideas, which could potentially be worth of more exploration, in a separate project named "3. Fire Predictor" (<a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/3.%20Fire%20Predictor/" target="_blank" rel="noopener">link to its repo</a>). 
+In this project, I use Spark to perform the EDA on the Sqlite data of 1.88 Million US Wildfires (<a href="https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/" target="_blank" rel="noopener">link to the Kaggle data source</a>). My primary goal was to explore the data and find out any potential room for application of Machine Learning to see if we can predict the cause, location, or size of fire. So based on this exploratory data analysis, I will experiment different ML ideas, which could potentially be worth of more exploration, in a separate project named "3. Fire Predictor" (<a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/3.%20Fire%20Predictor/" target="_blank" rel="noopener">link to its repo</a>). 
 
 <a name="2"></b>
 #### Some quick notes on the data
@@ -88,11 +88,10 @@ The first four rows of the data containing the above attributes, out of 1,880,46
 Based on the above info we can:
 
 + map the fire using geospatial info (long and lat), 
-+ see how long each fire took place which could provide some insight on each state capability to deal with fires, of course some other parameters should be taken into account like the size of fire
-+ calculate fire frequency in US in total or per state
-+ investigate fire occurance per season/month
-+ size/frequency of fire in each state
-+ investigate the main root cause of fire and see if this is state dependent 
++ see how long each fire took place which could provide some insight into each state's capability to deal with fires, of course, some other parameters such as size of the fire should be taken into account 
++ calculate fire size/frequency in US in total or per state
++ investigate fire occurrence per season/month
++ investigate the main root cause of fire and see if this is state-dependent 
 + apply ML to discover any potential patterns in the data 
 
 <a name="4"></b>
