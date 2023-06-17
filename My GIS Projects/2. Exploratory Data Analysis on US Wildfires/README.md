@@ -22,6 +22,7 @@ The python (pyspark) scripts for all the results in this exploratory data analys
             3. [across the country per fire class size](#15)
 3. [Conclusions](#16)
 
+
 <a name="1"></b>
 ### Introduction
 
@@ -319,7 +320,7 @@ Fig. 2. 2: Average US Wildfires Size per each Class (1992 - 2015)
 Fig. 2. 6: The US Wildfires counts of each fire size class per state (1992 - 2015)
 
 <a name="8"></b>
-##### US wildfires count and size per cause of the wildfire across the country or within each state
+##### US wildfires count and size distribution per cause of the wildfire across the country or within each state
 
 
 Comparing the plots for different states in Fig. 2. 6 shows that the number of wildfires generally decreases as the size of the fire increases. However, Alaska does not follow this trend and as shown in Fig. 2. 6 - 47, the number of wildfires increases as the size of fire increases from around 100 acres (class D) up to more than 5000 acres (class G). To further understand the wildfire occurrence in different states, the fire cause in each state is investigated in the following.
