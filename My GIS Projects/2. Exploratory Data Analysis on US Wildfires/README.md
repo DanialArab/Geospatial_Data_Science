@@ -640,7 +640,7 @@ The average duration of wildfires per state is shown in Fig. .. . As shown below
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_wildfires_in_US_1992_to_2015.png)
 
-Fig. : Average duration of US wildfires across the country (1992 - 2015) 
+Fig. : Average duration of US wildfires per state (1992 - 2015) 
 
 <a name="14"></b>
 ###### Average duration of wildfires across the country per month
@@ -649,7 +649,7 @@ The average duration of wildfires per month across the country is shown in Fig. 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_month.png)
 
-Fig. : Average duration of US wildfires per month the country (1992 - 2015) 
+Fig. : Average duration of US wildfires per month across the country (1992 - 2015) 
 
 <a name="15"></b>
 ###### Average duration of wildfires across the country per fire size class
@@ -658,6 +658,7 @@ The average duration of wildfire  across the country but per each fire size clas
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_fire_size_class.png)
 
+Fig. : Average duration of US wildfires per fire size class (1992 - 2015) 
 
 
 <a name="16"></b>
