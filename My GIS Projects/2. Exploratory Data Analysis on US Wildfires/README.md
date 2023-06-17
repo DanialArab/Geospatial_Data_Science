@@ -21,7 +21,7 @@ The python (pyspark) scripts for all the results in this exploratory data analys
             2. [Average duration of wildfires across the country per month](#14)
             3. [Average duration of wildfires across the country per fire size class](#15)
 3. [Conclusions](#16)
-
+4. [References])(#17)
 
 <a name="1"></b>
 ### Introduction
@@ -707,11 +707,11 @@ ideas to consider for ML
 
 
 
+
+<a name="17"></b>
+## References:
+
 Data reference: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
-
-Link to the Kaggle data source: https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires
-
-References:
 
 Short, K. C. 2014. A spatial database of wildfires in the United States, 1992-2011. Earth System Science Data. 6:1-27. https://doi.org/10.5194/essd-6-1-2014
 
