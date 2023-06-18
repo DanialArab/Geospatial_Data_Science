@@ -130,7 +130,7 @@ The total count and size of the US Wildfires across the country are shown in Fig
 
 Fig. 2. 4: 1) US Wildfire counts across all the states per year, 2) US Wildfire size (acres) across all the states per year
 
-As shown above, the minimum and maximum number of US Wildfires occurred in 1997 and 2006 with a total number of 61,450 and 114,004, respectively. Although there is no clear correlation between the number of wildfires with year, the size of fires generally tends to increase later towards 2015 (Fig. 2. 4-2). The distributions of the US wildfires in 1992, 1997, 2006, and 2015 are shown on the following maps.
+As shown above, the minimum and maximum number of US Wildfires occurred in 1997 and 2006 with a total number of 61,450 and 114,004, respectively. Although there is no clear correlation between the number of wildfires with year, the size of fires generally tends to increase (Fig. 2. 4-2). The distributions of the US wildfires in 1992, 1997, 2006, and 2015 are shown on the following maps.
 
 |**(1)**|**(2)** | 
 | -- | --| 
@@ -199,7 +199,7 @@ It would be insightful to also see where, within each state, the wildfires were 
 
 Fig. 2. 6: Locations of the Texas wildfires from 1992 to 2015
 
-As shown in Fig. 2. 6, the east of Texas consistently experienced wildfire during the period of study. The wildfire center was shifted towards the Texas center since 2005 (Fig. 2. 6-14) and the fire was propagated towards the north on around 2011 (Fig. 2. 6-20). 
+As shown in Fig. 2. 6, the east of Texas consistently experienced wildfires since 1992. The wildfire center was shifted towards the Texas center in 2005 (Fig. 2. 6-14) and the fire was propagated towards the north around 2011 (Fig. 2. 6-20). 
 
 To be more specific, the number of wildfires per class size within each state is discussed next.
 
@@ -666,7 +666,17 @@ Fig. 2. 21: Average duration of US wildfires per fire size class (1992 - 2015)
 <a name="16"></b>
 ## Conclusions
 
-HERE 
+Based on this exploratory data analysis, we can make the following conclusions about the US wildfires that happened between 1992 and 2015:
+
++ The states California, Georgia, and Texas had the most counts of wildfires.
++ The states Alaska, Idaho, and California had the largest average fire size.
++ US experienced the minimum and maximum number of wildfires in 1997 and 2006, with total counts of 61,450 and 114,004, respectively. 
++ Although there is no clear correlation between the number of US wildfires with year, the size of fires generally tends to increase.
++ This analysis allows us to locate the wildfires within each state. For example, the east of Texas consistently experienced wildfire since 1992 and the wildfire center was shifted towards the Texas center in 2005 and the fire was propagated towards the north around 2011. This type of detail may provide the decision-makers with useful insights to better manage wildfires.
++ It is observed that the number of wildfires generally decreases as the size of the fire increases. However, the followings are some interesting observations:
+    + However, Alaska does not follow this trend: the number of wildfires in Alaska increases as the size of the fire increases from around 100 acres (class D) up to more than 5,000 acres (class G).
+    + Also, the state of DC only experienced small fires within classes A and B (Fig. 2. 8-6). To further understand the wildfire occurrence in different states, the fire cause in each state is investigated in the following.
+
 
 ML Ideas and some comments:
 
