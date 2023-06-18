@@ -15,6 +15,8 @@ In this project, I trained various ML models to investigate the above ideas. The
    1. [Checking the balance of the dataset](#2)
    2. [Data cleaning](#3)
    3. [Formatting data to be compatible with spark MLlib](#4)
+   4. [ML results](#5)
+      1. [Logistic regression](#6)
 3. [Classification problem to predict the cause of the wildfire](#2)
 4. [Regression problem to predict the size of the wildfire in acres](#2)
  
@@ -91,6 +93,12 @@ the columns need to be used in ML are **features** and **FIRE_SIZE_CLASS_index**
       Row(features=DenseVector([0.0, 2004.0, 180.0, 1.0]))
 
 the attributes in the each record above are state_indexed, fire_year, discovery_doy, and fire_cause_indexed. This spark dataframe will be used in different classification algorithms like Logistic Regression and Random Forest Classifier. 
+
+<a name="5"></b>
+#### ML results
+
+<a name="6"></b>
+##### Logistic regression
 
 
 
