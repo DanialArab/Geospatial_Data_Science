@@ -15,6 +15,7 @@ In this project, I trained various ML models to investigate the above ideas. The
 1. [Classification problem to predict the size class of the wildfire](#1)
    1. [Checking the balance of the dataset](#2)
    2. [Data cleaning](#3)
+   3. [Formatting data to be compatible with spark MLlib](#4)
 3. [Classification problem to predict the cause of the wildfire](#2)
 4. [Regression problem to predict the size of the wildfire in acres](#2)
  
@@ -54,16 +55,33 @@ Table 3. 2: The counts of each fire size class in the US wildfire data (1992 - 2
 
 As shown in Table 3. 2, the data is so imbalanced, which greatly affects the accuracy of the classification algorithm. In these cases, we have to either rely on metrics other than accuracy, which are based on the confusion matrix like f1 score, recall, and precision, or resort to the sampling techniques. But for now, let's try the former approach i.e., working with the data as it is and measuring its performance via the confusion matrix.
 
-<a name="2"></b>
+<a name="3"></b>
 ### Data cleaning
 
 Let's see if there are any null values in the features:
 
-|LONGITUDE|LATITUDE|FIRE_SIZE|FIRE_SIZE_CLASS|STATE|FIRE_YEAR|DISCOVERY_DOY|STAT_CAUSE_CODE|CONT_TIME|
+|LONGITUDE|LATITUDE|FIRE_SIZE|FIRE_SIZE_CLASS|STATE|FIRE_YEAR|DISCOVERY_DOY|STAT_CAUSE_CODE|CONT_DOY|
 |--|--|--|--|--|--|--|--|--|
-|        0|       0|        0|              0|    0|        0|            0|              0|   972173|
+|        0|       0|        0|              0|    0|        0|            0|              0|   891531|
 
-so as a first trial, let's exclude DISCOVERY_TIME and CONT_TIME and work with the other features. 
+so as a first trial, let's exclude CONT_DOY and work with the other features. 
+
+<a name="4"></b>
+#### Formatting data to be compatible with spark MLlib
+
+The 
+
+      +---------------+-----+---------+-------------+---------------+---------------------+-----------+--------------------+
+      |FIRE_SIZE_CLASS|STATE|FIRE_YEAR|DISCOVERY_DOY|STAT_CAUSE_CODE|FIRE_SIZE_CLASS_index|STATE_Index|            features|
+      +---------------+-----+---------+-------------+---------------+---------------------+-----------+--------------------+
+      |              A|   CA|     2005|           33|              9|                  1.0|        0.0|[0.0,2005.0,33.0,...|
+      |              A|   CA|     2004|          133|              1|                  1.0|        0.0|[0.0,2004.0,133.0...|
+      |              A|   CA|     2004|          152|              5|                  1.0|        0.0|[0.0,2004.0,152.0...|
+      |              A|   CA|     2004|          180|              1|                  1.0|        0.0|[0.0,2004.0,180.0...|
+      |              A|   CA|     2004|          180|              1|                  1.0|        0.0|[0.0,2004.0,180.0...|
+      |              A|   CA|     2004|          182|              1|                  1.0|        0.0|[0.0,2004.0,182.0...|
+      |              A|   CA|     2004|          183|              1|                  1.0|        0.0|[0.0,2004.0,183.0...|
+
 
 side note:
 I could have approached the problem like a regression task because the data also includes, in addition to the fire size class, the fire size in acres.
