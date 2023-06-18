@@ -1,4 +1,3 @@
-
 # 3. Fire Predictor
 
 In this project, I studied the ML ideas, which are suggested based on the previous project I did on <a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/2.%20Exploratory%20Data%20Analysis%20on%20US%20Wildfires
@@ -69,7 +68,7 @@ so as a first trial, let's exclude CONT_DOY and work with the other features.
 <a name="4"></b>
 #### Formatting data to be compatible with spark MLlib
 
-The 
+The data after being processed and getting compatible with spart MLlib is shown in the following:
 
       +---------------+-----+---------+-------------+---------------+---------------------+-----------+--------------------+
       |FIRE_SIZE_CLASS|STATE|FIRE_YEAR|DISCOVERY_DOY|STAT_CAUSE_CODE|FIRE_SIZE_CLASS_index|STATE_Index|            features|
@@ -81,6 +80,17 @@ The
       |              A|   CA|     2004|          180|              1|                  1.0|        0.0|[0.0,2004.0,180.0...|
       |              A|   CA|     2004|          182|              1|                  1.0|        0.0|[0.0,2004.0,182.0...|
       |              A|   CA|     2004|          183|              1|                  1.0|        0.0|[0.0,2004.0,183.0...|
+
+
+the columns need to be used in ML are **features** and **FIRE_SIZE_CLASS_index**, which are features and taget/label, respectively. The first five features are:
+
+      Row(features=DenseVector([0.0, 2005.0, 33.0, 9.0]))
+      Row(features=DenseVector([0.0, 2004.0, 133.0, 1.0]))
+      Row(features=DenseVector([0.0, 2004.0, 152.0, 5.0]))
+      Row(features=DenseVector([0.0, 2004.0, 180.0, 1.0]))
+      Row(features=DenseVector([0.0, 2004.0, 180.0, 1.0]))
+
+the attributes in the each record above are state_indexed, fire_year, discovery_doy, and fire cause_indexed. This spark dataframe will be used in different classification algorithms like Logistic Regression and Random Forest Classifier. 
 
 
 side note:
