@@ -81,11 +81,6 @@ Fig. 2. 3: The total size of US Wildfires per state (1992 - 2015)
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_67975_Wildfires_in_US_1992.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_114004_Wildfires_in_US_2006.png)|
 
-dd
-
-|**(3)**|**(4)** | 
-| -- | --| 
-|![]()|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_74491_Wildfires_in_US_2015.png)|
 
 Fig. 2. 5: Locations of US Wildfires across all states for 1) 1992, 2) 1997, 3) 2006, and 4) 2015 
 
