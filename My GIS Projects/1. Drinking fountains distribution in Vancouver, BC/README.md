@@ -1,7 +1,7 @@
 
 ## 1. Drinking fountains distribution along green pathways in Vancouver, BC, Canada.
 
-In this project, I am investigating the drinking fountains accessibility (with 80 m as a buffer distance) along the green pathways in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities (please see the Jupyter notebook file named "Drinking fountains distribution - Vancouver, BC, Canada.ipynb", attached to this repo). 
+In this project, I am investigating the drinking fountains' accessibility (with 80 m as a buffer distance) along the green pathways in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities (please see the Jupyter notebook file named "Drinking fountains distribution - Vancouver, BC, Canada.ipynb", attached to this repo). 
 
 
 The followings are some notes and explanations:
