@@ -1,10 +1,9 @@
 
 ## 1. Drinking fountains distribution along green pathways in Vancouver, BC, Canada.
 
-In this project, I am investigating the drinking fountains' accessibility (with 80 m as a buffer distance) along the green pathways in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities (<a href="https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/1.%20Drinking%20fountains%20distribution%20in%20Vancouver%2C%20BC/Drinking%20fountains%20distribution%20-%20Vancouver%2C%20BC%2C%20Canada.ipynb" target="_blank" rel="noopener">link to the JUpyter Notebook file</a>).
+In this project, I am investigating the drinking fountains' accessibility (with 80 m as a buffer distance) along the green pathways in Vancouver, BC, Canada. The shape files data were obtained from the City of Vancouver public data portal (https://opendata.vancouver.ca/pages/home/). I initially did this project in QGIS through its Python functionality but in order to provide all the details and workflows I am leveraging GeoPandas spatial functionalities (<a href="https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/1.%20Drinking%20fountains%20distribution%20in%20Vancouver%2C%20BC/Drinking%20fountains%20distribution%20-%20Vancouver%2C%20BC%2C%20Canada.ipynb" target="_blank" rel="noopener">link to the Jupyter Notebook file</a>).
 
  
-
 The followings are some notes and explanations:
 
 First, I need to see what the coordinate reference system (CRS) of the data presented in the City of Vancouver public data portal is. I need this when buffering the pathways:
