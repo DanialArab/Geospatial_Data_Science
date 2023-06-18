@@ -55,7 +55,7 @@ In this project, I used Spark to perform exploratory data analysis on the Sqlite
 
 
 |**(1)**|**(2)** |  **(3)** | 
-| -- | --| 
+| -- | --| --|
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Wildfire_counts_per_US_state_sorted.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_wildfires_in_US_1992_to_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_fire_size_per_US_state.png)|
 
 Fig. 2. 1: The US Wildfire counts per state (1992 - 2015)
