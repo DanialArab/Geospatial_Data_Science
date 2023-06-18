@@ -13,13 +13,16 @@ In this project, I trained various ML models to investigate the above ideas. The
 # Table of content
 
 1. [Classification problem to predict the size class of the wildfire](#1)
-2. [Classification problem to predict the cause of the wildfire](#2)
-3. [Regression problem to predict the size of the wildfire in acres](#2)
+ 1. [Working with imbalanced dataset](#2)
+3. [Classification problem to predict the cause of the wildfire](#2)
+4. [Regression problem to predict the size of the wildfire in acres](#2)
  
 <a name="1"></b>
 ### Classification problem to predict the fire size class
 
-HERE
+The US wildfire sizes have been classified into seven different classes as follows:
+
+Table 3. 1: Seven different fire size classes in the US wildfire data (1992 - 2015)
 
 |**number of acres within the final fire perimeter expenditures**|**Fire Size Class ID** |
 | -- | --| 
@@ -31,6 +34,9 @@ HERE
 |1000 to 4999|F|
 |5000 +|G|
 
+So the problem is a multiclass classification and in this section, I will train an ML model to predict the fire size class based on the available features. The balance of data needs to be checked first:
+
+Table 3. 2: The counts of each fire size class in the US wildfire data (1992 - 2015)
 
 |**FIRE_SIZE_CLASS**|**count** | **normalized count (%)**|
 | -- | --| --|
@@ -42,8 +48,10 @@ HERE
 |              F|  7786|0.414047|
 |              G|  3773|0.200642|
 
+As shown in Table 3. 2, the data is so imbalanced, which greatly affects the accuracy of the classification algorithm. In these cases, we have to either rely on metrics other than accuracy, which are based on the confusion matrix like f1 score, recall, and precision, or resort to the sampling techniques. But for now, let's try the former approach i.e., working with the data as it is and measure its performance via confusion matrix.
 
-So the problem is a multiclass classification.
+<a name="2"></b>
+### Working with imbalanced dataset 
 
 side note:
 I could have approached the problem like a regression task because the data also includes, in addition to the fire size class, the fire size in acres.
