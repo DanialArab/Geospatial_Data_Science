@@ -19,6 +19,8 @@ In this project, I trained various ML models to investigate the above ideas. The
 <a name="1"></b>
 ### Classification problem to predict the fire size class
 
+HERE
+
 |**number of acres within the final fire perimeter expenditures**|**Fire Size Class ID** |
 | -- | --| 
 |0 - 0.25|A|
