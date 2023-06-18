@@ -26,7 +26,7 @@ which returns:
 
     The CRS Name for the greenways data is: WGS 84
 
-S**ome notes on CRS:**
+**Some notes on CRS:**
 
 A CRS defines how spatial data, such as maps or geographical features, are represented on a two-dimensional surface. The CRS of "WGS 84," typically indicates that the coordinates in the shapefile are based on the World Geodetic System 1984 (WGS 84) reference ellipsoid. In this CRS, the units are indeed **in degrees for both latitude and longitude.**
 
