@@ -100,6 +100,20 @@ the attributes in the each record above are state_indexed, fire_year, discovery_
 <a name="6"></b>
 ##### Logistic regression
 
+      Acuuracy = 0.5053254563727341
+      f1_score = 0.4312706891097169, 
+      weighted_Precision = 0.416745785366686, 
+      weighted_Recall = 0.5053254563727341, 
+      confusionMatrix: 
+      prediction                0.0    1.0
+      FIRE_SIZE_CLASS_index               
+      0.0                    237386  44540
+      1.0                    152411  47707
+      2.0                     55012  11031
+      3.0                      6405   1955
+      4.0                      2997   1211
+      5.0                      1442    939
+      6.0                       546    595
 
 
 
