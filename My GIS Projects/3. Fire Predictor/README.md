@@ -17,6 +17,7 @@ In this project, I trained various ML models to investigate the above ideas. The
    3. [Formatting data to be compatible with spark MLlib](#4)
    4. [ML results](#5)
       1. [Logistic regression](#6)
+         1. [Resampling technique to deal with the imbalanced dataset](#7)
 3. [Classification problem to predict the cause of the wildfire](#2)
 4. [Regression problem to predict the size of the wildfire in acres](#2)
  
@@ -100,6 +101,8 @@ the attributes in the each record above are state_indexed, fire_year, discovery_
 <a name="6"></b>
 ##### Logistic regression
 
+The metrics for the first trial of logistic regression with this very imbalanced data are as follows:
+
       Acuuracy = 0.5053254563727341
       f1_score = 0.4312706891097169, 
       weighted_Precision = 0.416745785366686, 
@@ -115,7 +118,10 @@ the attributes in the each record above are state_indexed, fire_year, discovery_
       5.0                      1442    939
       6.0                       546    595
 
+in this case, as shown in the confusion matrix above, the predicted classes were only 0 and 1. In the dataset, these classes dominate the distribution with 49.95 and 35.46 % normalized counts, respectively (Table 3. 2). So that is why the classifier is so biased towards the majority class, leading to poor performance on the minority class. As shown above, the accuracy is 50 %, which is almost similar to the dummy model which only predicts class 0. To improve the model's performance, the resampling techniques of oversampling the minority class or undersampling the majority class have been tested to balance the dataset.
 
+<a name="7"></b>
+###### Resampling technique to deal with the imbalanced dataset
 
 
 
