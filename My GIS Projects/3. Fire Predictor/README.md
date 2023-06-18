@@ -13,7 +13,7 @@ In this project, I trained various ML models to investigate the above ideas. The
 # Table of content
 
 1. [Classification problem to predict the size class of the wildfire](#1)
- 1. [Working with imbalanced dataset](#2)
+   1. [Working with imbalanced dataset](#2)
 3. [Classification problem to predict the cause of the wildfire](#2)
 4. [Regression problem to predict the size of the wildfire in acres](#2)
  
