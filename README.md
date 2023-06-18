@@ -65,7 +65,7 @@ Fig. 2. 1: The US Wildfire counts per state (1992 - 2015)
 Fig. 2. 3: The total size of US Wildfires per state (1992 - 2015)
 
 |**(1)**|**(2)** | 
-| -- | --| --|
+| -- | --|
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_67975_Wildfires_in_US_1992.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_61450_Wildfires_in_US_1997.png)|
 
 
