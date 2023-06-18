@@ -93,6 +93,6 @@ Based on this exploratory data analysis, we can make the following conclusions a
 + Based on the aforementioned analysis, the following ML ideas will be investigated:
     + Given the state, county, cause, and date of the fire, is it possible to predict the fire size class (classes A to G)? (the problem is classification)
     + Given the state, county, cause, and date of the fire, is it possible to predict the fire size in acres? (the problem is regression)
-    + Given the time, location, and size of the fire, is it possible to predict the cause of the fire? is it a function of seasons?
+    + Given the time, location, and size of the fire, is it possible to predict the cause of the fire? is it a function of seasons? (the problem is classification)
 
 These ML ideas have been tested in a separate project, named "3. Fire Predictor" (<a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/3.%20Fire%20Predictor/" target="_blank" rel="noopener">link to its repo</a>).
