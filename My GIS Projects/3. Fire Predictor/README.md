@@ -1,7 +1,17 @@
 
 # 3. Fire Predictor
 
-In this project, I trained ML model to predict US Wildfire size class, so my approach would be to perform classification task to predict the fire class size, which could be ope of the following:
+In this project, I studied the ML ideas, which are suggested based on the previous project I did on <a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/2.%20Exploratory%20Data%20Analysis%20on%20US%20Wildfires
+" target="_blank" rel="noopener">EDA on 1.88 Million US Wildfires</a>. In that project the followings ML ideas have been suggested:
+
++ Given the state, county, cause, and date of the fire, is it possible to predict the fire size class (classes A to G)? (the problem is classification)
++ Given the state, county, cause, and date of the fire, is it possible to predict the fire size in acres? (the problem is regression)
++ Given the time, location, and size of the fire, is it possible to predict the cause of the fire? is it a function of seasons? (the problem is classification)
+
+In this project, I trained various ML models to investigate the above ideas. 
+
+
+
 
 |**number of acres within the final fire perimeter expenditures**|**Class ID** |
 | -- | --| 
