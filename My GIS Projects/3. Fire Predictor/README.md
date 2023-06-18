@@ -57,12 +57,13 @@ As shown in Table 3. 2, the data is so imbalanced, which greatly affects the acc
 <a name="2"></b>
 ### Data cleaning
 
-Let's see if there is any null values in the features:
+Let's see if there are any null values in the features:
 
-|LONGITUDE|LATITUDE|FIRE_SIZE|FIRE_SIZE_CLASS|STATE|FIRE_YEAR|DISCOVERY_DOY|STAT_CAUSE_CODE|DISCOVERY_TIME|CONT_TIME|
-|--|--|--|--|--|--|--|--|--|--|
-|        0|       0|        0|              0|    0|        0|            0|              0|        882638|   972173|
+|LONGITUDE|LATITUDE|FIRE_SIZE|FIRE_SIZE_CLASS|STATE|FIRE_YEAR|DISCOVERY_DOY|STAT_CAUSE_CODE|CONT_TIME|
+|--|--|--|--|--|--|--|--|--|
+|        0|       0|        0|              0|    0|        0|            0|              0|   972173|
 
+so as a first trial, let's exclude DISCOVERY_TIME and CONT_TIME and work with the other features. 
 
 side note:
 I could have approached the problem like a regression task because the data also includes, in addition to the fire size class, the fire size in acres.
