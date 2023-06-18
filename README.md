@@ -58,11 +58,8 @@ In this project, I used Spark to perform exploratory data analysis on the Sqlite
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Wildfire_counts_per_US_state_sorted.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_wildfires_in_US_1992_to_2015.png)|
 
-Fig. 2. 1: The US Wildfire counts per state (1992 - 2015)
+Fig. 2. A: 1) The US Wildfire counts per state, 2) Average duration of US wildfires per state (1992 - 2015) 
 
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_fire_size_per_US_state.png)
-
-Fig. 2. 3: The total size of US Wildfires per state (1992 - 2015)
 
 |**(1)**|**(2)** | 
 | -- | --|
@@ -73,36 +70,19 @@ Fig. 2. 3: The total size of US Wildfires per state (1992 - 2015)
 | -- | --| 
 |![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_114004_Wildfires_in_US_2006.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_74491_Wildfires_in_US_2015.png)|
 
-Fig. 2. 5: Locations of US Wildfires across all states for 1) 1992, 2) 1997, 3) 2006, and 4) 2015 
-
-
-
-
-|**(1)**|**(2)** | 
-| -- | --| 
-|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_across_all_states_1992_2015.png)|![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month.png)|
-
-
+Fig. 2. B: Locations of US Wildfires across all states for 1) 1992, 2) 1997, 3) 2006, and 4) 2015 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Cause_of_US_Wildfire_across_all_states_1992_2015.png)
 
-Fig. 2. 9: Frequency of the US wildfire cause across the country (1992 - 2015)
+Fig. 2. C: Frequency of the US wildfire cause across the country (1992 - 2015)
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Total_Fire_Size_vs_month.png)
 
-Fig. 2. 17: Size of US wildfire vs. month across the country (1992 - 2015)
-
-
-![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_wildfires_in_US_1992_to_2015.png)
-
-Fig. 2. 19: Average duration of US wildfires per state (1992 - 2015) 
-
+Fig. 2. D: Size of US wildfire vs. month across the country (1992 - 2015)
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Average_duration_of_US_wildfires_per_fire_size_class.png)
 
-Fig. 2. 21: Average duration of US wildfires per fire size class (1992 - 2015) 
-
-
+Fig. 2. E: Average duration of US wildfires per fire size class (1992 - 2015) 
 
 Based on this exploratory data analysis, we can make the following conclusions about the US wildfires that happened between 1992 and 2015:
 
