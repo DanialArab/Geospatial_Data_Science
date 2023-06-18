@@ -1,16 +1,16 @@
 # Geospatial Data Science
 
-This repo documents my understanding of GIS and Geospatial Data Science. The structure of the repo is as follows, and more details on each topic is presented in the files in each directory, named consistently with the first-level headings below, attached to this repo.
+This repo documents my understanding of GIS and Geospatial Data Science. The structure of the repo is as follows, and more details on each topic are presented in the files in each directory, named consistently with the first-level headings below, attached to this repo.
 
 
 ### 1. GIS Fundamentals
-This directory contains the following Markdown files detailing my understanding of GIS theory and programming using Geospatial Python librraies (GeoPandas, Shapely, Rasterio, GDAL, etc.), PostgreSQL, and PostGIS. 
+This directory contains the following Markdown files detailing my understanding of GIS theory and programming using Geospatial Python libraries (GeoPandas, Shapely, Rasterio, GDAL, etc.), PostgreSQL, and PostGIS. 
 
 1. GIS Basics
 2. Open Source GIS Stack: Python for Geospatial, Udemy course, instructor: Arthur Lembo
 
 ### 2. My GIS Projects
-This directory contains the details of the GIS project I have done so far, whcih include the jupyter notebook files containing all the Python codes and end-to-end pipelines. For my projects, I work on jupyter notebook and although I installed QGIS in my ubuntu VM to be able to play with qgis package, geopandas works fabulously in a much simpler term. It allows me to access great spatial functions and operations. A brief high-level overview/summary of each project along with some visualizations are presented in the following (please find more details in the **My GIS Projects** directory of this repo):
+This directory contains the details of the GIS project I have done so far, which include the Jupyter Notebook files containing all the Python codes and end-to-end pipelines. For my projects, I work on Jupyter Notebook using geopandas to more interactively experiment what I have done using QGIS installed in my Ubuntu VM. This allows me to access great spatial functions and operations in Python. A brief high-level overview/summary of each project along with some visualizations are presented in the following (please find more details in the **My GIS Projects** directory of this repo):
 
 #### 1. Drinking fountains distribution along green pathways in Vancouver, BC, Canada. 
 
