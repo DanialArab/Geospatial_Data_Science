@@ -47,3 +47,4 @@ The interactive map provides various features such as panning, zooming, and brow
 [Vancouver highly accessible fountains along green pathways - interactive map](https://danialarab.github.io/interactive_map_drinking_fountain_Vancouver/)
 
 
+#### 2. Exploratory Data Analysis on US Wildfires 
