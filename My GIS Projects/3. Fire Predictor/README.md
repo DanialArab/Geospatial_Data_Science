@@ -90,16 +90,11 @@ the columns need to be used in ML are **features** and **FIRE_SIZE_CLASS_index**
       Row(features=DenseVector([0.0, 2004.0, 180.0, 1.0]))
       Row(features=DenseVector([0.0, 2004.0, 180.0, 1.0]))
 
-the attributes in the each record above are state_indexed, fire_year, discovery_doy, and fire cause_indexed. This spark dataframe will be used in different classification algorithms like Logistic Regression and Random Forest Classifier. 
+the attributes in the each record above are state_indexed, fire_year, discovery_doy, and fire_cause_indexed. This spark dataframe will be used in different classification algorithms like Logistic Regression and Random Forest Classifier. 
 
 
-side note:
-I could have approached the problem like a regression task because the data also includes, in addition to the fire size class, the fire size in acres.
 
-Here are some notes:
 
-+ I used Spark 
-+ ...
 
 
 <a name="2"></b>
