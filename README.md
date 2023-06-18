@@ -49,6 +49,9 @@ The interactive map provides various features such as panning, zooming, and brow
 
 #### 2. Exploratory Data Analysis on US Wildfires 
 
+The python (pyspark) scripts for all the results in this exploratory data analysis are included in the jupyter notebook file named <a href="https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/2.%20Exploratory%20Data%20Analysis%20on%20US%20Wildfires/EDA%20on%201.88%20Million%20US%20Wildfires.ipynb" target="_blank" rel="noopener">EDA on 1.88 Million US Wildfires</a>. 
+
+In this project, I use Spark to perform exploratory data analysis on the Sqlite data of 1.88 Million US Wildfires (<a href="https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/" target="_blank" rel="noopener">link to the Kaggle data source</a>). My primary goal was to explore the data and find out any potential room for application of Machine Learning to see if we can predict the cause, location, or size of fire. So based on this exploratory data analysis, I will experiment different ML ideas, which could potentially be worth of more exploration, in a separate project named "3. Fire Predictor" (<a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/3.%20Fire%20Predictor/" target="_blank" rel="noopener">link to its repo</a>). 
 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/Wildfire_counts_per_US_state_sorted.png)
