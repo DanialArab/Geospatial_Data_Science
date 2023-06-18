@@ -18,6 +18,8 @@ In this project, I trained various ML models to investigate the above ideas. The
    4. [ML results](#5)
       1. [Logistic regression](#6)
          1. [Resampling technique to deal with the imbalanced dataset](#7)
+            1. [Oversampling](#8)
+            2. 
 3. [Classification problem to predict the cause of the wildfire](#2)
 4. [Regression problem to predict the size of the wildfire in acres](#2)
  
@@ -122,6 +124,11 @@ in this case, as shown in the confusion matrix above, the predicted classes were
 
 <a name="7"></b>
 ###### Resampling technique to deal with the imbalanced dataset
+
+The oversampling and undersampling should be applied only to the training data to avoid introducing bias into the testing or validation sets. Additionally, the choice between oversampling and undersampling depends on the specific problem and dataset, so I will experiment with both approaches and evaluate their impact on the model's performance.
+
+<a name="8"></b>
+###### Oversampling 
 
 
 
