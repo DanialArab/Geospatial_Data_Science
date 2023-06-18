@@ -671,26 +671,26 @@ Based on this exploratory data analysis, we can make the following conclusions a
 + The states California, Georgia, and Texas had the most counts of wildfires.
 + The states Alaska, Idaho, and California had the largest average fire size.
 + US experienced the minimum and maximum number of wildfires in 1997 and 2006, with total counts of 61,450 and 114,004, respectively. 
-+ Although there is no clear correlation between the number of US wildfires with year, the size of fires generally tends to increase.
++ Although there is no clear correlation between the number of US wildfires with time, the size of fires generally tends to increase.
 + This analysis allows us to locate the wildfires within each state. For example, the east of Texas consistently experienced wildfire since 1992 and the wildfire center was shifted towards the Texas center in 2005 and the fire was propagated towards the north around 2011. This type of detail may provide the decision-makers with useful insights to better manage wildfires.
 + It is observed that the number of wildfires generally decreases as the size of the fire increases. However, the followings are some interesting observations:
-    + However, Alaska does not follow this trend: the number of wildfires in Alaska increases as the size of the fire increases from around 100 acres (class D) up to more than 5,000 acres (class G).
+    + Alaska does not follow this trend: the number of wildfires in Alaska increases as the size of the fire increases from around 100 acres (class D) up to more than 5,000 acres (class G).
     + The states of DC, RI, NH, and VT only experienced small fires within classes A, B, C, or D. 
 + It is observed that human activities such as **Debris Burning** and **Arson** play a crucial role as the main causes behind the US wildfires. To be able to provide a standardized way to classify and track the causes of wildfires per state the percentage of each cause per total number of wildfires per state is calculated. These details can be helpful to agencies and organizations to analyze trends, develop prevention strategies, and allocate resources.
 + A clear cyclic trend in the size and counts of fire per season was observed, which peaks between June to August across the country. This is correlated with the main cause of the fire, which makes this conclusion state-dependent. 
 + Combining the insights obtained from the wildfires size distribution vs. time and the wildfire count distribution per cause of fire within each state provides a coherent conclusion: the larger the weight of nature to cause the wildfire the more chance to shift the peak of fire size towards the hottest months i.e., June, July, and August. This is clearly observed in the state of Alaska where the main cause of fire is lightning (with more than 30%) with the largest size of fires in the hottest months of the year i.e., June and July. On the other hand, in the state of Texas where the first three most frequent causes of wildfires are due to human activities (Debris Burning, Equipment Use, and Arson) March and April are the months with the largest fires. The hottest months in Texas are reported to be July and August (<a href="https://spectrumlocalnews.com/tx/austin/weather/2022/06/30/the-hottest-part-of-the-year-across-texas#:~:text=The%20warmest%20month%20of%20the%20year%20is%20also%20August%2C%20with,daily%20high%20temperature%20of%2097" target="_blank" rel="noopener">reference</a>), which supports this argument.
-+ The data contain the date of fire discovery and also the contained date, the date when the fire was reported to be under control. This data was used to calculate the fire duration per state, per month, and per fire class size, which provides some insights such as:
++ The data contain the date of fire discovery and also the contained date, the date when the fire was reported to be under control. This data was used to calculate the fire duration per state, per month, and per fire class size. The following insights can potentially reveal the capability of each state to deal with wildfire and suggest practical strategies:
     + Hawaii had the largest fire duration, followed by Alaska and New Jersey. The partial explanation for the largest duration of wildfires in Hawaii and Alaska could be their remote location and difficult accessibility. 
     + The hottest months of June, July, and August had the largest wildfire duration of around 2 days. 
     + There is a clear, meaningful, and understandable trend in the average duration of wildfire across the country per each fire size class: the larger the size of the fire the harder to control it and so the larger the duration of wildfires.
 
-These insights can potentially reveal the capability of each state to deal with fire.
 + Based on the aforementioned analysis, the following ML ideas will be investigated:
     + Given the state, county, cause, and date of the fire, is it possible to predict the fire size class (classes A to G)? (the problem is classification)
     + Given the state, county, cause, and date of the fire, is it possible to predict the fire size in acres? (the problem is regression)
-    + Given the time, location, and size of the fire, is it possible to predict the cause of the fire? is it a function of seasons?
+    + Given the time, location, and size of the fire, is it possible to predict the cause of the fire? is it a function of seasons? (the problem is classification)
 
-These ML ideas have been tested in a separate project, named "3. Fire Predictor" (<a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/3.%20Fire%20Predictor/" target="_blank" rel="noopener">link to its repo</a>). 
+These ML ideas have been tested in a separate project, named "3. Fire Predictor" (<a href="https://github.com/DanialArab/Geospatial_Data_Science/tree/main/My%20GIS%20Projects/3.%20Fire%20Predictor/" target="_blank" rel="noopener">link to its repo</a>).
+
 
 
 <a name="17"></b>
