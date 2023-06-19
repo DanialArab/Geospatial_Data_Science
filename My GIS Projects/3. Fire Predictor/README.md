@@ -19,7 +19,7 @@ In this project, I trained various ML models to investigate the above ideas. The
       1. [Logistic regression](#6)
          1. [Resampling technique to deal with the imbalanced dataset](#7)
             1. [Oversampling](#8)
-            2. 
+            2. [Undersampling](#9)
 3. [Classification problem to predict the cause of the wildfire](#2)
 4. [Regression problem to predict the size of the wildfire in acres](#2)
  
@@ -167,7 +167,7 @@ The metrics for the Logistic regression model trained on the oversampled trainin
       F    248    116     432    189     87    201   1064
       G     79     27     104     63     25     81    718
 
-<a name="8"></b>
+<a name="9"></b>
 ###### Undersampling 
 
 After implementing undersampling on the training dataset, the counts of each class in the FIRE_SIZE_CLASS_ENCODED are:
