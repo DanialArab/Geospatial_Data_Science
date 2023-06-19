@@ -115,20 +115,20 @@ Fig.3. 2: Distribution of scaled features
 
 The metrics for the first trial of logistic regression with this very imbalanced data are as follows:
 
-      Accuracy = 0.5053254563727341
-      f1_score = 0.4312706891097169, 
-      weighted_Precision = 0.416745785366686, 
-      weighted_Recall = 0.5053254563727341, 
-      confusion matrix: 
+      Accuracy = 0.5051604681376763
+      f1_score = 0.43094392943837395, 
+      weighted_Precision = 0.4163392177660231, 
+      weighted_Recall = 0.5051604681376762, 
+      confusion Matrix: 
       prediction                0.0    1.0
       FIRE_SIZE_CLASS_index               
-      0.0                    237386  44540
-      1.0                    152411  47707
-      2.0                     55012  11031
-      3.0                      6405   1955
-      4.0                      2997   1211
-      5.0                      1442    939
-      6.0                       546    595
+      0.0                    237439  44446
+      1.0                    152441  47569
+      2.0                     54899  11120
+      3.0                      6612   1969
+      4.0                      2980   1248
+      5.0                      1436    864
+      6.0                       558    612 
 
 in this case, as shown in the confusion matrix above, the predicted classes were only 0 and 1. In the dataset, these classes dominate the distribution with 49.95 and 35.46 % normalized counts, respectively (Table 3. 2). So that is why the classifier is so biased towards the majority class, leading to poor performance on the minority class. As shown above, the accuracy is 50 %, which is almost similar to the dummy model which only predicts class 0. To improve the model's performance, the resampling techniques of oversampling the minority class or undersampling the majority class have been tested to balance the dataset.
 
@@ -140,7 +140,7 @@ The oversampling and undersampling should be applied only to the training data t
 <a name="8"></b>
 ###### Oversampling 
 
-HERE
+
 
 
 <a name="2"></b>
