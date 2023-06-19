@@ -140,7 +140,7 @@ The oversampling and undersampling should be applied only to the training data t
 <a name="8"></b>
 ###### Oversampling -- SMOTE (Synthetic Minority Over-sampling Technique)
 
-After implementing SMOTE on the training dataset, the counts of each class in the FIRE_SIZE_CLASS_ENCODED is:
+After implementing SMOTE on the training dataset, the counts of each class in the FIRE_SIZE_CLASS_ENCODED are:
 
       FIRE_YEAR	DISCOVERY_DOY	STAT_CAUSE_CODE	STATE_ENCODED FIRE_SIZE_CLASS_ENCODED				
             0	      657818	      657818	            657818	      657818
@@ -170,6 +170,32 @@ The metrics for the Logistic regression model trained on the oversampled trainin
 <a name="8"></b>
 ###### Undersampling 
 
+After implementing undersampling on the training dataset, the counts of each class in the FIRE_SIZE_CLASS_ENCODED are:
+
+      FIRE_YEAR	DISCOVERY_DOY	STAT_CAUSE_CODE	STATE_ENCODED FIRE_SIZE_CLASS_ENCODED				
+      0	               2676	         2676	            2676	            2676
+      1	               2676	         2676	            2676	            2676
+      2	               2676	         2676	            2676	            2676
+      3	               2676	         2676	            2676	            2676
+      4	               2676	         2676	            2676	            2676
+      5	               2676	         2676	            2676	            2676
+      6	               2676	         2676	            2676	            2676
+
+The metrics for the Logistic regression model trained on the undersampled training dataset and evaluated on the testing data, not undersampled of course, are as follows:
+
+      Accuracy = 0.15093948310703018
+      f1_score = 0.1798858106979777, 
+      precision = 0.4343619572545453, 
+      recall = 0.15093948310703018, 
+      confusion_matrix_df: 
+             A      B      C      D      E      F      G
+      A  34396  11647  44572  17112  13059  16298  63378
+      B  46794  22658  96321  31692  16364  16307  51422
+      C   9909   4352  26044   6881   3107   3300  12238
+      D   1221    506   2648    909    501    502   2262
+      E    541    327    974    426    234    293   1511
+      F    269    131    362    200    139    194   1042
+      G     83     38     89     50     40     81    716
 
 
 <a name="2"></b>
