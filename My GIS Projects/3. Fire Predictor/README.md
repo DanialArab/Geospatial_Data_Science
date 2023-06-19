@@ -101,11 +101,11 @@ the attributes in the each record above are FIRE_YEAR, DISCOVERY_DOY, STAT_CAUSE
 
 Fig.3. 1: Distribution of features
 
-So since the range of features are remarkably different, I do need to scale the features, whose distributions are presented in the following figure:
+So since the range of features is remarkably different (Fig. 3. 1), I do need to scale the features, whose distributions are presented in the following figure:
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/distribution_of_scaled_features.png)
 
-Fig.3. 12: Distribution of features
+Fig.3. 2: Distribution of scaled features
 
 <a name="5"></b>
 #### ML results
