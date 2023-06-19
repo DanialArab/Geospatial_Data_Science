@@ -20,6 +20,10 @@ In this project, I trained various ML models to investigate the above ideas. The
          1. [Resampling technique to deal with the imbalanced dataset](#7)
             1. [Oversampling](#8)
             2. [Undersampling](#9)
+      2. [Random forest classifier](#10)
+         1. [Resampling technique to deal with the imbalanced dataset](#11)
+            1. [Oversampling](#12)
+            2. [Undersampling](#13)
 3. [Classification problem to predict the cause of the wildfire](#2)
 4. [Regression problem to predict the size of the wildfire in acres](#2)
  
@@ -196,6 +200,34 @@ The metrics for the Logistic regression model trained on the undersampled traini
       E    541    327    974    426    234    293   1511
       F    269    131    362    200    139    194   1042
       G     83     38     89     50     40     81    716
+
+<a name="10"></b>
+##### Random forest classifier
+
+The metrics for the first trial of the random forest classifier with this very imbalanced data are as follows:
+
+      Accuracy = 0.5768454379329395
+      f1_score = 0.5266650612135855, 
+      weighted_Precision = 0.491926070356712, 
+      weighted_Recall = 0.5768454379329395, 
+      confusion Matrix: 
+      prediction                0.0     1.0
+      FIRE_SIZE_CLASS_index                
+      0.0                    220551   61801
+      1.0                     94795  105219
+      2.0                     55054   11115
+      3.0                      6033    2504
+      4.0                      2454    1800
+      5.0                       940    1344
+      6.0                       281     853 
+
+The accuracy was improved by around 7 % compared to the logistic regression classifier, but still, only two dominant classes of 0 and 1 were predicted. 
+
+<a name="11"></b>
+###### Resampling technique to deal with the imbalanced dataset
+
+<a name="12"></b>
+###### Oversampling -- SMOTE (Synthetic Minority Over-sampling Technique)
 
 
 <a name="2"></b>
