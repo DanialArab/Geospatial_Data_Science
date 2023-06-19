@@ -97,6 +97,12 @@ the columns need to be used in ML are **features** and **FIRE_SIZE_CLASS_index**
 
 the attributes in the each record above are state_indexed, fire_year, discovery_doy, and fire_cause_indexed. This spark dataframe will be used in different classification algorithms like Logistic Regression and Random Forest Classifier. 
 
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/distribution_of_features.png)
+
+![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/distribution_of_scaled_features.png)
+
+
 <a name="5"></b>
 #### ML results
 
