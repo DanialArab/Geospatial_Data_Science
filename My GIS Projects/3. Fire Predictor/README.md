@@ -138,8 +138,17 @@ in this case, as shown in the confusion matrix above, the predicted classes were
 The oversampling and undersampling should be applied only to the training data to avoid introducing bias into the testing or validation sets. Additionally, the choice between oversampling and undersampling depends on the specific problem and dataset, so I will experiment with both approaches and evaluate their impact on the model's performance.
 
 <a name="8"></b>
-###### Oversampling 
+###### Oversampling -- SMOTE (Synthetic Minority Over-sampling Technique)
 
+      FIRE_YEAR	DISCOVERY_DOY	STAT_CAUSE_CODE	STATE_ENCODED
+      FIRE_SIZE_CLASS_ENCODED				
+      0	657818	657818	657818	657818
+      1	657818	657818	657818	657818
+      2	657818	657818	657818	657818
+      3	657818	657818	657818	657818
+      4	657818	657818	657818	657818
+      5	657818	657818	657818	657818
+      6	657818	657818	657818	657818
 
 
 
