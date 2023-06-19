@@ -95,13 +95,17 @@ the columns need to be used in ML are **features** and **FIRE_SIZE_CLASS_index**
       Row(features=DenseVector([0.0, 2004.0, 180.0, 1.0]))
       Row(features=DenseVector([0.0, 2004.0, 180.0, 1.0]))
 
-the attributes in the each record above are state_indexed, fire_year, discovery_doy, and fire_cause_indexed. This spark dataframe will be used in different classification algorithms like Logistic Regression and Random Forest Classifier. 
-
+the attributes in the each record above are FIRE_YEAR, DISCOVERY_DOY, STAT_CAUSE_CODE, and STATE_Index. This spark dataframe will be used in different classification algorithms like Logistic Regression and Random Forest Classifier. But before moving forward, the range of features needs to be checked: 
 
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/distribution_of_features.png)
 
+Fig.3. 1: Distribution of features
+
+So since the range of features are remarkably different, I do need to scale the features, whose distributions are presented in the following figure:
+
 ![](https://github.com/DanialArab/Geospatial_Data_Science/blob/main/My%20GIS%20Projects/plots/distribution_of_scaled_features.png)
 
+Fig.3. 12: Distribution of features
 
 <a name="5"></b>
 #### ML results
