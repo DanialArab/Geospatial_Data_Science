@@ -105,11 +105,11 @@ the attributes in the each record above are state_indexed, fire_year, discovery_
 
 The metrics for the first trial of logistic regression with this very imbalanced data are as follows:
 
-      Acuuracy = 0.5053254563727341
+      Accuracy = 0.5053254563727341
       f1_score = 0.4312706891097169, 
       weighted_Precision = 0.416745785366686, 
       weighted_Recall = 0.5053254563727341, 
-      confusionMatrix: 
+      confusion matrix: 
       prediction                0.0    1.0
       FIRE_SIZE_CLASS_index               
       0.0                    237386  44540
