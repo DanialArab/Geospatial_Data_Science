@@ -229,6 +229,10 @@ The accuracy was improved by around 7 % compared to the logistic regression clas
 <a name="12"></b>
 ###### Oversampling -- SMOTE (Synthetic Minority Over-sampling Technique)
 
+HERE
+
+
+
 
 <a name="2"></b>
 ### Classification problem to predict the cause of the wildfire
