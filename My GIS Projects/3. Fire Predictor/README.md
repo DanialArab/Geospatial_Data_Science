@@ -143,15 +143,33 @@ The oversampling and undersampling should be applied only to the training data t
 After implementing SMOTE on the training dataset, the counts of each class in the FIRE_SIZE_CLASS_ENCODED is:
 
       FIRE_YEAR	DISCOVERY_DOY	STAT_CAUSE_CODE	STATE_ENCODED FIRE_SIZE_CLASS_ENCODED				
-            0	      657818	657818	657818	657818
-            1	      657818	657818	657818	657818
-            2	      657818	657818	657818	657818
-            3	      657818	657818	657818	657818
-            4	      657818	657818	657818	657818
-            5	      657818	657818	657818	657818
-            6	      657818	657818	657818	657818
+            0	      657818	      657818	            657818	      657818
+            1	      657818	      657818	            657818	      657818
+            2	      657818	      657818	            657818	      657818
+            3	      657818	      657818	            657818	      657818
+            4	      657818	      657818	            657818	      657818
+            5	      657818	      657818	            657818	      657818
+            6	      657818	      657818	            657818	      657818
 
-Then 
+The metrics for the Logistic regression model trained on the oversampled training dataset and evaluated on the testing data, not oversampled of course, are as follows:
+
+      Accuracy = 0.1381483319743326
+      f1_score = 0.1470281243963427, 
+      precision = 0.3820880139959797, 
+      recall = 0.1381483319743326, 
+      confusion_matrix_df: 
+             A      B       C      D      E      F      G
+      A  33672  10690   47877  17608   8227  17707  64681
+      B  44536  11284  118020  24195  10730  19944  52849
+      C   9354   1835   31192   4667   2063   4111  12609
+      D   1162    279    3205    709    296    590   2308
+      E    507    238    1191    347    159    325   1539
+      F    248    116     432    189     87    201   1064
+      G     79     27     104     63     25     81    718
+
+<a name="8"></b>
+###### Undersampling 
+
 
 
 <a name="2"></b>
