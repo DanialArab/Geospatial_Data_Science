@@ -140,8 +140,9 @@ The oversampling and undersampling should be applied only to the training data t
 <a name="8"></b>
 ###### Oversampling -- SMOTE (Synthetic Minority Over-sampling Technique)
 
-      FIRE_YEAR	DISCOVERY_DOY	STAT_CAUSE_CODE	STATE_ENCODED
-      FIRE_SIZE_CLASS_ENCODED				
+After implementing SMOTE on the training dataset, the counts of each class in the FIRE_SIZE_CLASS_ENCODED is:
+
+      FIRE_YEAR	DISCOVERY_DOY	STAT_CAUSE_CODE	STATE_ENCODED FIRE_SIZE_CLASS_ENCODED				
       0	657818	657818	657818	657818
       1	657818	657818	657818	657818
       2	657818	657818	657818	657818
@@ -150,6 +151,7 @@ The oversampling and undersampling should be applied only to the training data t
       5	657818	657818	657818	657818
       6	657818	657818	657818	657818
 
+Then 
 
 
 <a name="2"></b>
