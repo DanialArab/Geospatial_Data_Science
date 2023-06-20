@@ -229,8 +229,22 @@ The accuracy was improved by around 7 % compared to the logistic regression clas
 <a name="12"></b>
 ###### Oversampling -- SMOTE (Synthetic Minority Over-sampling Technique)
 
-HERE
+The metrics for the random forest classifier model trained on the oversampled training dataset and evaluated on the testing data, not oversampled of course, are as follows:
 
+      Accuracy = 0.5283316198106853
+      f1_score = 0.5377056763298095, 
+      weighted_Precision = 0.491926070356712, 
+      weighted_Recall = 0.5768454379329395, 
+      confusion Matrix: 
+      prediction                0.0     1.0
+      FIRE_SIZE_CLASS_index                
+      0.0                    220551   61801
+      1.0                     94795  105219
+      2.0                     55054   11115
+      3.0                      6033    2504
+      4.0                      2454    1800
+      5.0                       940    1344
+      6.0                       281     853 
 
 
 
