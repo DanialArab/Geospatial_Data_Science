@@ -246,6 +246,25 @@ The metrics for the random forest classifier model trained on the oversampled tr
       5.0                       940    1344
       6.0                       281     853 
 
+<a name="13"></b>
+###### Undersampling 
+
+The metrics for the random forest classifier model trained on the undersampled training dataset and evaluated on the testing data, not undersampled of course, are as follows:
+
+      Accuracy = 0.31727053568263197
+      f1_score = 0.38256458450575936, 
+      weighted_Precision = 0.491926070356712, 
+      weighted_Recall = 0.5768454379329395, 
+      confusion Matrix: 
+      prediction                0.0     1.0
+      FIRE_SIZE_CLASS_index                
+      0.0                    220551   61801
+      1.0                     94795  105219
+      2.0                     55054   11115
+      3.0                      6033    2504
+      4.0                      2454    1800
+      5.0                       940    1344
+      6.0                       281     853
 
 
 <a name="2"></b>
