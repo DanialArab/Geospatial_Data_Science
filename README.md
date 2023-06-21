@@ -8,6 +8,7 @@ This directory contains the following Markdown files detailing my understanding 
 
 1. GIS Basics
 2. Open Source GIS Stack: Python for Geospatial, Udemy course, instructor: Arthur Lembo
+3. GDAL
 
 ### 2. My GIS Projects
 This directory contains the details of the GIS project I have done so far, which include the Jupyter Notebook files containing all the Python codes and end-to-end pipelines. For my projects, I work on Jupyter Notebook using GeoPandas to more interactively experiment what I have done using QGIS installed in my Ubuntu VM. This allows me to access great spatial functions and operations in Python. A brief high-level overview/summary of each project along with some visualizations are presented in the following (please find more details in the **My GIS Projects** directory of this repo):
