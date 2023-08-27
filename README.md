@@ -1,4 +1,4 @@
-# Geospatial Data Science
+# Geospatial Data Science 
 
 This repository documents my understanding of GIS and Geospatial Data Science. The structure of the repo is as follows, and more details on each topic are presented in the files in each directory, named consistently with the first-level headings below, attached to this repo.
 
